@@ -8,7 +8,7 @@
 
 #include <atomic>
 #include "genwit.h"
-#include "zpiv/accumulators.h"
+#include "zable/accumulators.h"
 #include "concurrentqueue.h"
 #include "chainparams.h"
 #include <boost/function.hpp>
@@ -49,12 +49,12 @@ public:
         return true;
     }
 
-    void StartLightZpivThread(boost::thread_group& threadGroup) {
+    void StartLightZableThread(boost::thread_group& threadGroup) {
         LogPrintf("%s thread start\n", "able-light-thread");
         threadIns = boost::thread(boost::bind(&CLightWorker::ThreadLightZABLESimplified, this));
     }
 
-    void StopLightZpivThread() {
+    void StopLightZableThread() {
         threadIns.interrupt();
         LogPrintf("%s thread interrupted\n", "able-light-thread");
     }

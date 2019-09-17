@@ -11,7 +11,7 @@
 #include "wallet/wallet.h"
 #include "wallet/walletdb.h"
 #include "txdb.h"
-#include "zpiv/zpivmodule.h"
+#include "zable/zablemodule.h"
 #include "test/test_able.h"
 #include <boost/test/unit_test.hpp>
 #include <iostream>
@@ -30,7 +30,7 @@ BOOST_AUTO_TEST_CASE(zerocoin_spend_test)
 
     bool fFirstRun;
     cWallet.LoadWallet(fFirstRun);
-    cWallet.zpivTracker = std::unique_ptr<CzABLETracker>(new CzABLETracker(cWallet.strWalletFile));
+    cWallet.zableTracker = std::unique_ptr<CzABLETracker>(new CzABLETracker(cWallet.strWalletFile));
     CMutableTransaction tx;
     CWalletTx* wtx = new CWalletTx(&cWallet, tx);
     bool fMintChange=true;

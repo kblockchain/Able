@@ -2,15 +2,15 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include <zpiv/deterministicmint.h>
-#include "zpivtracker.h"
+#include <zable/deterministicmint.h>
+#include "zabletracker.h"
 #include "util.h"
 #include "sync.h"
 #include "main.h"
 #include "txdb.h"
 #include "wallet/walletdb.h"
-#include "zpiv/accumulators.h"
-#include "zpiv/zpivwallet.h"
+#include "zable/accumulators.h"
+#include "zable/zablewallet.h"
 #include "witness.h"
 
 
@@ -157,7 +157,7 @@ CAmount CzABLETracker::GetBalance(bool fConfirmedOnly, bool fUnconfirmedOnly) co
     }
 
     {
-        //LOCK(cs_pivtracker);
+        //LOCK(cs_abletracker);
         // Get Unused coins
         for (auto& it : mapSerialHashes) {
             CMintMeta meta = it.second;
@@ -477,7 +477,7 @@ std::set<CMintMeta> CzABLETracker::ListMints(bool fUnusedOnly, bool fMatureOnly,
             Add(dMint, false, false, zABLEWallet);
         }
         delete zABLEWallet;
-        LogPrint("zero", "%s: added %d dzpiv from DB\n", __func__, listDeterministicDB.size());
+        LogPrint("zero", "%s: added %d dzable from DB\n", __func__, listDeterministicDB.size());
     }
 
     std::vector<CMintMeta> vOverWrite;
