@@ -24,6 +24,116 @@ struct SeedSpec6 {
 
 #include "chainparamsseeds.h"
 
+// #define REGTEST_GENERATION
+#if defined(MAINNET_GENERATION) || defined(TESTNET_GENERATION) || defined(REGTEST_GENERATION)
+#ifndef GENESIS_GENERATION
+#define GENESIS_GENERATION
+#endif
+#endif
+
+#ifdef GENESIS_GENERATION
+#include <cstdlib>
+#include <ctime>
+#include <iostream>
+#include <cstdio>
+#include <string>
+#include "utiltime.h"
+#include <random>
+#include <cmath>
+#include <iomanip>
+#include <util.h>
+#include <new>
+#include <chrono>
+#include <thread>
+#include <mutex>
+#include "random.h"
+
+#include <sys/time.h>
+
+typedef uint32_t uint;
+typedef long long ll;
+
+static std::mutex mtx;
+
+//test cnt 1000 times time
+int64_t getCurrentTime()
+{
+    struct timeval tv;
+    gettimeofday(&tv,NULL);
+    return tv.tv_sec * 1000 + tv.tv_usec / 1000;
+}
+
+// find a genesis in about 10-20 mins
+void _get(const CBlockHeader * const pblock, const uint256 hashTarget)
+{
+    uint256 hash;
+    CBlockHeader *pb = new CBlockHeader(*pblock);
+    int64_t starttime = getCurrentTime();
+
+    for (int cnt = 0, tcnt=0; true; ++cnt,++tcnt)
+    {
+        uint256 hash = pb->GetHash();
+
+        if (hash <= hashTarget) break;
+        pb->nNonce = pb->nNonce + 1;
+        if (cnt > 1e4)
+        {
+            cnt = 0;
+        }
+        if (tcnt !=0 and tcnt % 1000 == 0)
+        {
+            std::cout<<"cryptopop tcnt = "<<tcnt<<" time = " << getCurrentTime() - starttime << " ms"<<std::endl;       
+        }
+
+    }
+
+    std::lock_guard<std::mutex> guard(mtx);
+    std::cout << "\n\t\t----------------------------------------\t" << std::endl;
+    std::cout << "\t" << pb->nNonce  << std::endl;
+    std::cout << "\t" << pb->GetHash().ToString() << std::endl;
+    std::cout << "\t" << pb->nTime << std::endl;
+    std::cout << "\n\t\t----------------------------------------\t" << std::endl;
+    delete pb;
+
+    // stop while found one
+    assert(0);
+}
+
+static void findGenesis(CBlockHeader *pb, const std::string &net) {
+    bool fNegative;
+    bool fOverflow;
+    uint256 hashTarget;
+    hashTarget.SetCompact(pb->nBits, &fNegative, &fOverflow);
+    //                     000b02477d596d9a5cd75170cfaf4f28711579faa4fabfa52e176eb0ef52c400
+    /*popchain ghost*/
+    std::cout << " finding genesis using target " << hashTarget.ToString()
+        << ", " << net << std::endl;
+
+    std::vector<std::thread> threads;
+
+    for (int i = 0; i < 1; ++i)
+    {
+        if (i >= 0)
+        {
+            // Randomise nonce
+            uint32_t nonce = 0;
+            // Clear the top and bottom 16 bits (for local use as thread flags and counters)
+            //nonce <<= ;
+            //nonce >>= 8;
+            pb->nNonce = nonce;
+            // pb->nTime = 1556560800;
+
+        }
+        threads.push_back(std::thread(_get, pb, hashTarget));
+    }
+
+    for (auto &t : threads)
+    {
+        t.join();
+    }
+}
+#endif
+
 /**
  * Main network
  */
@@ -189,11 +299,18 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1549756800;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 2402015;
+        genesis.nNonce = 147048;
 
+#ifdef MAINNET_GENERATION
+        findGenesis(&genesis, "mainnet");
+#endif
+
+	hashGenesisBlock = genesis.GetHash();
+        printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        printf("genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
-        assert(genesis.hashMerkleRoot == uint256("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        assert(hashGenesisBlock == uint256("0x000003150f65dcefe0c79f60fa28bdaa96d10cd2fa4d9e7a4fa171e12288bd77"));
+        assert(genesis.hashMerkleRoot == uint256("0x836a08b2d8af0d474951772fb409a883bb6578c2ee063ff447185a3efc9d6c13"));
 
         vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "able.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
         vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "able.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
@@ -302,11 +419,19 @@ public:
         nSupplyBeforeFakeSerial = 0;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1549756800;
-        genesis.nNonce = 2402015;
+        genesis.nTime = 1549756801;
+        genesis.nNonce = 34352;
+
+#ifdef TESTNET_GENERATION
+        findGenesis(&genesis, "testnet");
+#endif
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
+        printf("testnet genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
+        printf("testent genesis.hashMerkleRoot = %s\n", genesis.hashMerkleRoot.ToString().c_str());
+
+        hashGenesisBlock = genesis.GetHash();
+        assert(hashGenesisBlock == uint256("0x00000de8166ae44dbe134a7a3ec507745d42f9e75c74ca16cb7340b1cfc11766"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -394,11 +519,15 @@ public:
         nFakeSerialBlockheightEnd = -1;
 
         //! Modify the regtest genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1549756800;
-        genesis.nNonce = 2402015;
+        genesis.nTime = 1549756802;
+        genesis.nNonce = 290363;
+
+#ifdef REGTEST_GENERATION
+        findGenesis(&genesis, "regtest");
+#endif
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
+        assert(hashGenesisBlock == uint256("0x000000ca4382a50b8f75067cf7d565828ca29a1db32bf18f30cebdf484958fad"));
         //assert(hashGenesisBlock == uint256("0x4f023a2120d9127b21bbad01724fdb79b519f593f2a85b60d3d79160ec5f29df"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
