@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef ABLE_ZPIVTRACKER_H
-#define ABLE_ZPIVTRACKER_H
+#ifndef ABLE_ZABLETRACKER_H
+#define ABLE_ZABLETRACKER_H
 
 #include "zerocoin.h"
 #include "witness.h"
@@ -11,9 +11,9 @@
 #include <list>
 
 class CDeterministicMint;
-class CzPIVWallet;
+class CzABLEWallet;
 
-class CzPIVTracker
+class CzABLETracker
 {
 private:
     bool fInitialized;
@@ -23,9 +23,9 @@ private:
     std::map<uint256, std::unique_ptr<CoinWitnessData> > mapStakeCache; //serialhash, witness value, height
     bool UpdateStatusInternal(const std::set<uint256>& setMempool, CMintMeta& mint);
 public:
-    CzPIVTracker(std::string strWalletFile);
-    ~CzPIVTracker();
-    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzPIVWallet* zPIVWallet = NULL);
+    CzABLETracker(std::string strWalletFile);
+    ~CzABLETracker();
+    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzABLEWallet* zABLEWallet = NULL);
     void Add(const CZerocoinMint& mint, bool isNew = false, bool isArchived = false);
     bool Archive(CMintMeta& meta);
     bool HasPubcoin(const CBigNum& bnValue) const;
@@ -55,4 +55,4 @@ public:
     void Clear();
 };
 
-#endif //ABLE_ZPIVTRACKER_H
+#endif //ABLE_ZABLETRACKER_H

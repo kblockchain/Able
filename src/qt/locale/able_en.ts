@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>ABLE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <source>ABLE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ABLEs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ABLE&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -557,7 +557,7 @@
     </message>
     <message>
         <location line="+11"/>
-        <source>Privacy Actions for zPIV</source>
+        <source>Privacy Actions for zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2242,7 +2242,7 @@ Please be patient after clicking import.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Add destinations to send PIV to</source>
+        <source>Add destinations to send ABLE to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2489,17 +2489,17 @@ https://www.transifex.com/able-project/able-project-translations</source>
     </message>
     <message>
         <location line="-187"/>
-        <source>Enable automatic minting of PIV units to zPIV</source>
+        <source>Enable automatic minting of ABLE units to zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Enable zPIV Automint</source>
+        <source>Enable zABLE Automint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Enable automatic zPIV minting from specific addresses</source>
+        <source>Enable automatic zABLE minting from specific addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2509,23 +2509,23 @@ https://www.transifex.com/able-project/able-project-translations</source>
     </message>
     <message>
         <location line="+11"/>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
+        <source>Percentage of incoming ABLE which get automatically converted to zABLE via Zerocoin Protocol (min: 10%)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Percentage of autominted zPIV</source>
+        <source>Percentage of autominted zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+30"/>
         <location line="+16"/>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
+        <source>Wait with automatic conversion to Zerocoin until enough ABLE for this denomination is available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-13"/>
-        <source>Preferred Automint zPIV Denomination</source>
+        <source>Preferred Automint zABLE Denomination</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2744,7 +2744,7 @@ https://www.transifex.com/able-project/able-project-translations</source>
     </message>
     <message>
         <location line="+71"/>
-        <source>PIV Balance</source>
+        <source>ABLE Balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2781,14 +2781,14 @@ https://www.transifex.com/able-project/able-project-translations</source>
     </message>
     <message>
         <location line="+96"/>
-        <source>zPIV Balance</source>
+        <source>zABLE Balance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+53"/>
         <location line="+17"/>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zABLE are spendable.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2861,7 +2861,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="+191"/>
         <location line="+19"/>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
+        <source>Locked ABLE or Masternode collaterals. These are excluded from zABLE minting.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2877,7 +2877,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     <message>
         <location line="+58"/>
         <location line="+19"/>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
+        <source>Your current zABLE balance, unconfirmed and immature zABLE included.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2893,7 +2893,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <location line="+111"/>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zABLE.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
         <translation type="unfinished"></translation>
@@ -3080,7 +3080,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+229"/>
-        <source>zPIV</source>
+        <source>zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3115,12 +3115,12 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+462"/>
-        <source>zPIV Control</source>
+        <source>zABLE Control</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>zPIV Selected:</source>
+        <source>zABLE Selected:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3145,7 +3145,7 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+7"/>
-        <source>Available (mature and spendable) zPIV for spending</source>
+        <source>Available (mature and spendable) zABLE for spending</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3155,9 +3155,9 @@ To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1
     </message>
     <message>
         <location line="+16"/>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zABLE for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+zABLE are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3174,7 +3174,7 @@ zPIV are mature when they have more than 20 confirmations AND more than 2 mints 
         <location line="+31"/>
         <location line="+31"/>
         <location line="+31"/>
-        <source>0 zPIV</source>
+        <source>0 zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3252,7 +3252,7 @@ zPIV are mature when they have more than 20 confirmations AND more than 2 mints 
         <location line="+25"/>
         <location line="+704"/>
         <location line="+38"/>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
+        <source>Total Balance including unconfirmed and immature zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3286,14 +3286,14 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <location line="+40"/>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zABLE minting.
 
 To change the status (restart required):
 - enable: add &apos;enablezeromint=1&apos; to able.conf
 - disable: add &apos;enablezeromint=0&apos; to able.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zABLE
 
 </source>
         <translation type="unfinished"></translation>
@@ -3363,7 +3363,7 @@ To change the percentage (no restart required):
     </message>
     <message>
         <location line="-1092"/>
-        <source>Show zPIV denominations list</source>
+        <source>Show zABLE denominations list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3373,12 +3373,12 @@ To change the percentage (no restart required):
     </message>
     <message>
         <location line="+29"/>
-        <source>zPIV minting is DISABLED</source>
+        <source>zABLE minting is DISABLED</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+131"/>
-        <source>zPIV spending is NOT private (links back to the mint transaction)</source>
+        <source>zABLE spending is NOT private (links back to the mint transaction)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3544,12 +3544,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+240"/>
-        <source>zPIV Spend #: </source>
+        <source>zABLE Spend #: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>zPIV Mint</source>
+        <source>zABLE Mint</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3569,12 +3569,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+17"/>
-        <source>zPIV is currently disabled due to maintenance.</source>
+        <source>zABLE is currently disabled due to maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-537"/>
-        <source>zPIV is currently undergoing maintenance.</source>
+        <source>zABLE is currently undergoing maintenance.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4287,7 +4287,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+29"/>
-        <source>Custom zPIV Backup Path:</source>
+        <source>Custom zABLE Backup Path:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4880,12 +4880,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 PIV</source>
+        <source>0 ABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+149"/>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 PIV applies</source>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 ABLE applies</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4955,12 +4955,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1026"/>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPIVs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uABLEs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uABLEs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uABLEs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uPIVs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uABLEs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uABLEs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uABLEs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5026,7 +5026,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+35"/>
-        <source>Anonymized PIV</source>
+        <source>Anonymized ABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5906,12 +5906,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>PIV Stake</source>
+        <source>ABLE Stake</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>zPIV Stake</source>
+        <source>zABLE Stake</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5936,37 +5936,37 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Converted PIV to zPIV</source>
+        <source>Converted ABLE to zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Spent zPIV</source>
+        <source>Spent zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Received PIV from zPIV</source>
+        <source>Received ABLE from zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Minted Change as zPIV from zPIV Spend</source>
+        <source>Minted Change as zABLE from zABLE Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Converted zPIV to PIV</source>
+        <source>Converted zABLE to ABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+56"/>
-        <source>Anonymous (zPIV Transaction)</source>
+        <source>Anonymous (zABLE Transaction)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Anonymous (zPIV Stake)</source>
+        <source>Anonymous (zABLE Stake)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6235,12 +6235,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="-310"/>
-        <source>Received PIV from zPIV</source>
+        <source>Received ABLE from zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Zerocoin Spend, Change in zPIV</source>
+        <source>Zerocoin Spend, Change in zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6287,7 +6287,7 @@ Please be patient...</source>
     <message>
         <location line="-18"/>
         <location line="+9"/>
-        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
+        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 ABLE.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6328,7 +6328,7 @@ Please be patient...</source>
     <name>ZPivControlDialog</name>
     <message>
         <location filename="../forms/zpivcontroldialog.ui" line="+20"/>
-        <source>Select zPIV to Spend</source>
+        <source>Select zABLE to Spend</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6344,7 +6344,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="-7"/>
-        <source>zPIV</source>
+        <source>zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6432,17 +6432,17 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
+        <source>Enable automatic wallet backups triggered after each zABLE minting (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
+        <source>Enable or disable staking functionality for ABLE inputs (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
+        <source>Enable or disable staking functionality for zABLE inputs (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6487,12 +6487,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+8"/>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in ABLE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in ABLE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6647,12 +6647,12 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 ABLE.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 ABLE.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6917,7 +6917,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Enable precomputation of zPIV spends and stakes (0-1, default %u)</source>
+        <source>Enable precomputation of zABLE spends and stakes (0-1, default %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7032,7 +7032,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in ABLE/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7162,22 +7162,22 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+9"/>
-        <source>Recalculating PIV supply...</source>
+        <source>Recalculating ABLE supply...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Recalculating minted ZPIV...</source>
+        <source>Recalculating minted ZABLE...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Recalculating spent ZPIV...</source>
+        <source>Recalculating spent ZABLE...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
+        <source>Reindex the ABLE and zABLE money supply statistics</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7274,7 +7274,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+27"/>
-        <source>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <source>Specify custom backup path to add a copy of any automatic zABLE backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7824,7 +7824,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Syncing zPIV wallet...</source>
+        <source>Syncing zABLE wallet...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7964,7 +7964,7 @@ Please be patient...</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
+        <source>Value is below the smallest available denomination (= 1) of zABLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

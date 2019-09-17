@@ -176,15 +176,15 @@
         <translation>Konfirmi monerĉifrado</translation>
     </message>
     <message>
-        <source>ABLE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>ABLE fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn PIVs de esti ŝtelita per malware infektanta vian komputilon.</translation>
+        <source>ABLE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ABLEs from being stolen by malware infecting your computer.</source>
+        <translation>ABLE fermos nun por fini ĉifran procezon. Memoru ke ĉifri vian monujon ne povas plene protekti viajn ABLEs de esti ŝtelita per malware infektanta vian komputilon.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ĉu vi certas ke vi volas ĉifri vian monujon?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ABLE&lt;/b&gt;!</source>
         <translation>Averto: se vi ĉifras vian monujo kaj perdi vian pasfrazon, vi &lt;b&gt;PERDOS VIAN TUTAN MONON&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -433,8 +433,8 @@
         <translation>&amp;Foliumi transakcio historio</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Privataj agoj por zPIV</translation>
+        <source>Privacy Actions for zABLE</source>
+        <translation>Privataj agoj por zABLE</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1514,8 +1514,8 @@ Muktisendi: %1</translation>
         <translation>Adreso / Kvanto:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Aldonu destinoj por sendi PIV al</translation>
+        <source>Add destinations to send ABLE to</source>
+        <translation>Aldonu destinoj por sendi ABLE al</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1705,8 +1705,8 @@ https://www.transifex.com/able-project/able-project-translations</translation>
         <translation>Via aktuala elspezebla saldo</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>PIV kvanto</translation>
+        <source>ABLE Balance</source>
+        <translation>ABLE kvanto</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -1717,8 +1717,8 @@ https://www.transifex.com/able-project/able-project-translations</translation>
         <translation>Via aktuala ABLE totalo, nekonformita kaj nematurita transakcioj inkluzivita</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV kvanto</translation>
+        <source>zABLE Balance</source>
+        <translation>zABLE kvanto</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -1788,20 +1788,20 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zABLE</source>
+        <translation>zABLE</translation>
     </message>
     <message>
         <source>Reset</source>
         <translation>Restarigi</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>zPIV kontrolu</translation>
+        <source>zABLE Control</source>
+        <translation>zABLE kontrolu</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>Elektita zPIV</translation>
+        <source>zABLE Selected:</source>
+        <translation>Elektita zABLE</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -1812,12 +1812,12 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Elspezi zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Havebla (matura kaj elspezebla) zPIV por elspezi</translation>
+        <source>Available (mature and spendable) zABLE for spending</source>
+        <translation>Havebla (matura kaj elspezebla) zABLE por elspezi</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zABLE</source>
+        <translation>0 zABLE</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2194,8 +2194,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>Se estas aktiva sed ŝanĝo-adreso estas malpleniĝa au nevalida, ŝanĝo sendos al nova generita adreson.</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 ABLE</source>
+        <translation>0 ABLE</translation>
     </message>
     <message>
         <source>Open Coin Control...</source>
@@ -2270,7 +2270,7 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
     </message>
     <message>
         <source>The ABLE address to send the payment to</source>
-        <translation>PIVC adreso por sendi la pago al</translation>
+        <translation>ABLEC adreso por sendi la pago al</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2552,8 +2552,8 @@ Nematura: konfirmita, sed malpli ol 1 minto el la samo nomado post ĝin estis mi
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zABLE</source>
+        <translation>zABLE</translation>
     </message>
     </context>
 <context>

@@ -176,7 +176,7 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>ABLE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <source>ABLE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ABLEs from being stolen by malware infecting your computer.</source>
         <translation>ABLE сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши ABLE от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
@@ -184,8 +184,8 @@
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ABLE&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ ABLE&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,7 +433,7 @@
         <translation>Просмотр истории транзакций</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
+        <source>Privacy Actions for zABLE</source>
         <translation>Действия конфиденциальности для зпив</translation>
     </message>
     <message>
@@ -1632,8 +1632,8 @@ Please be patient after clicking import.</source>
         <translation>Адрес/ Сумма:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Добавить назначение куда отправить PIV</translation>
+        <source>Add destinations to send ABLE to</source>
+        <translation>Добавить назначение куда отправить ABLE</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1832,28 +1832,28 @@ https://www.transifex.com/able-project/able-project-translations</translation>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Невозможно автоматически отчеканить единицы PIV для zPIV</translation>
+        <source>Enable automatic minting of ABLE units to zABLE</source>
+        <translation>Невозможно автоматически отчеканить единицы ABLE для zABLE</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Невозможно авточеканка  zPIV</translation>
+        <source>Enable zABLE Automint</source>
+        <translation>Невозможно авточеканка  zABLE</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих PIV, которые автоматически конвертируются в zPIV благодаря Zerocoin протоколу (min: 10%)</translation>
+        <source>Percentage of incoming ABLE which get automatically converted to zABLE via Zerocoin Protocol (min: 10%)</source>
+        <translation>Процент приходящих ABLE, которые автоматически конвертируются в zABLE благодаря Zerocoin протоколу (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Процент  авточеканненых zPIV</translation>
+        <source>Percentage of autominted zABLE</source>
+        <translation>Процент  авточеканненых zABLE</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Подождите с автоматическим преобразованием в Zerocoin, пока не будет достаточно PIV для этой номинации.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough ABLE for this denomination is available</source>
+        <translation>Подождите с автоматическим преобразованием в Zerocoin, пока не будет достаточно ABLE для этой номинации.</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zPIV</translation>
+        <source>Preferred Automint zABLE Denomination</source>
+        <translation>Предпочитаемый номинал авточеканной  монеты  zABLE</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2011,8 +2011,8 @@ https://www.transifex.com/able-project/able-project-translations</translation>
         <translation>Общий баланс включая все не доступные монеты</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>Баланс PIV</translation>
+        <source>ABLE Balance</source>
+        <translation>Баланс ABLE</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2039,13 +2039,13 @@ https://www.transifex.com/able-project/able-project-translations</translation>
         <translation>Ваш текущий ABLE  баланс, включая неподтвержденные и незрелые транзакции</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>Баланс zPIV</translation>
+        <source>zABLE Balance</source>
+        <translation>Баланс zABLE</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
-        <translation>Зрелые: более 20 подтверждений и более 1 чеканки одного и того же наименования после того, как оно было отчеканено. Эти zPIV можно потратить.</translation>
+These zABLE are spendable.</source>
+        <translation>Зрелые: более 20 подтверждений и более 1 чеканки одного и того же наименования после того, как оно было отчеканено. Эти zABLE можно потратить.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2098,8 +2098,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Заблокированно дополнительное обеспечение PIV или Masternode. Они исключены из чеканки zPIV.</translation>
+        <source>Locked ABLE or Masternode collaterals. These are excluded from zABLE minting.</source>
+        <translation>Заблокированно дополнительное обеспечение ABLE или Masternode. Они исключены из чеканки zABLE.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2110,8 +2110,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>Неподтвержденный:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Ваш текущий zPIV баланс, включая неподтвержденные и незрелые транзакции</translation>
+        <source>Your current zABLE balance, unconfirmed and immature zABLE included.</source>
+        <translation>Ваш текущий zABLE баланс, включая неподтвержденные и незрелые транзакции</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2122,10 +2122,10 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <translation>несинронизировано</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zABLE.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Текущий процент от zPIV.
+        <translation>Текущий процент от zABLE.
 Если АвтоЧеканка включена, этот процент будет располагаться на настроенном проценте АвтоЧеканка  (по умолчанию = 10%).
 </translation>
     </message>
@@ -2269,8 +2269,8 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in able.conf<
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zABLE</source>
+        <translation>zABLE</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2297,12 +2297,12 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in able.conf<
         <translation>КОНФИДЕНЦИАЛЬНОСТЬ</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>Контроль zPIV</translation>
+        <source>zABLE Control</source>
+        <translation>Контроль zABLE</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>Выбрано zPIV:</translation>
+        <source>zABLE Selected:</source>
+        <translation>Выбрано zABLE:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2317,24 +2317,24 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in able.conf<
         <translation>Потратить Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Доступный (зрелый и расходуемый) zPIV для расходов</translation>
+        <source>Available (mature and spendable) zABLE for spending</source>
+        <translation>Доступный (зрелый и расходуемый) zABLE для расходов</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Доступный Баланс :</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zABLE for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Доступный (зрелый и затратный) zPIV для расходов
+zABLE are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Доступный (зрелый и затратный) zABLE для расходов
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
+zABLE are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zABLE</source>
+        <translation>0 zABLE</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2393,8 +2393,8 @@ zPIV are mature when they have more than 20 confirmations AND more than 2 mints 
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Общий баланс, включая неподтвержденные и незрелые zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zABLE</source>
+        <translation>Общий баланс, включая неподтвержденные и незрелые zABLE</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2415,24 +2415,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Незрелый: подтвержден, но менее 1 чеканок того же наименования после того, как он был отчеканен</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zABLE minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to able.conf
 - disable: add 'enablezeromint=0' to able.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zABLE
 
 </source>
-        <translation>Показать текущий статус автоматической чеканки zPIV.
+        <translation>Показать текущий статус автоматической чеканки zABLE.
 
 Чтобы изменить статус (требуется перезагрузка):
 - включить: добавить 'enablezeromint = 1' в able.conf
 - отключить: добавить 'enablezeromint = 0' в able.conf
 
 Чтобы изменить процент (не требуется перезагрузка):
-- меню Настройки-&gt; Параметры-&gt; Процент авторизованного zPIV</translation>
+- меню Настройки-&gt; Параметры-&gt; Процент авторизованного zABLE</translation>
     </message>
     <message>
         <source>AutoMint Status</source>
@@ -2605,12 +2605,12 @@ Please be patient...</source>
 Будьте терпеливы ...</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV Тратить #: </translation>
+        <source>zABLE Spend #: </source>
+        <translation>zABLE Тратить #: </translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>чеканка zPIV</translation>
+        <source>zABLE Mint</source>
+        <translation>чеканка zABLE</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2625,12 +2625,12 @@ Please be patient...</source>
         <translation> Настроенный целевой процент: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV в настоящее время отключен от обслуживания.</translation>
+        <source>zABLE is currently disabled due to maintenance.</source>
+        <translation>zABLE в настоящее время отключен от обслуживания.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>В настоящее время zPIV проходит техническое обслуживание.</translation>
+        <source>zABLE is currently undergoing maintenance.</source>
+        <translation>В настоящее время zABLE проходит техническое обслуживание.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3075,8 +3075,8 @@ Please be patient...</source>
         <translation>Пользовательский путь резервного копирования:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Пользовательский путь резервного копирования zPIV:</translation>
+        <source>Custom zABLE Backup Path:</source>
+        <translation>Пользовательский путь резервного копирования zABLE:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3524,8 +3524,8 @@ Please be patient...</source>
         <translation>UTXO Размер:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 ABLE</source>
+        <translation>0 ABLE</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3580,12 +3580,12 @@ Please be patient...</source>
         <translation>Монеты автоматически выбираются</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Если пользовательская плата установлена в 1000 uPIVs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uPIVs,&lt;br /&gt;а «по крайней мере» платит 1000 uPIV. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
+        <source>If the custom fee is set to 1000 uABLEs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uABLEs in fee,&lt;br /&gt;while "at least" pays 1000 uABLEs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Если пользовательская плата установлена в 1000 uABLEs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uABLEs,&lt;br /&gt;а «по крайней мере» платит 1000 uABLE. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Если пользовательская плата установлена в 1000 uPIVs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uPIVs,&lt;br /&gt;а «по крайней мере» платит 1000 uPIV. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
+        <source>If the custom fee is set to 1000 uABLEs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uABLEs in fee,&lt;br /&gt;while "total at least" pays 1000 uABLEs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Если пользовательская плата установлена в 1000 uABLEs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uABLEs,&lt;br /&gt;а «по крайней мере» платит 1000 uABLE. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ABLE transactions than the network can process.</source>
@@ -3636,8 +3636,8 @@ Please be patient...</source>
         <translation>Добавить &amp;Получателя</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>Анонимный PIV</translation>
+        <source>Anonymized ABLE</source>
+        <translation>Анонимный ABLE</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4280,12 +4280,12 @@ Please be patient...</source>
         <translation>Получено через обфускацию</translation>
     </message>
     <message>
-        <source>PIV Stake</source>
-        <translation>Доля PIV</translation>
+        <source>ABLE Stake</source>
+        <translation>Доля ABLE</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>Доля zPIV</translation>
+        <source>zABLE Stake</source>
+        <translation>Доля zABLE</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4304,32 +4304,32 @@ Please be patient...</source>
         <translation>Обфускация Создание конфессий</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>Преобразованный PIV в zPIV</translation>
+        <source>Converted ABLE to zABLE</source>
+        <translation>Преобразованный ABLE в zABLE</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>потраченный zPIV</translation>
+        <source>Spent zABLE</source>
+        <translation>потраченный zABLE</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Полученный PIV от zPIV</translation>
+        <source>Received ABLE from zABLE</source>
+        <translation>Полученный ABLE от zABLE</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>созданная  замена  zPIV из потраенного zPIV </translation>
+        <source>Minted Change as zABLE from zABLE Spend</source>
+        <translation>созданная  замена  zABLE из потраенного zABLE </translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>Преобразованный zPIV to PIV</translation>
+        <source>Converted zABLE to ABLE</source>
+        <translation>Преобразованный zABLE to ABLE</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Transaction)</source>
-        <translation>Анонимный (транзакция zPIV)</translation>
+        <source>Anonymous (zABLE Transaction)</source>
+        <translation>Анонимный (транзакция zABLE)</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Stake)</source>
-        <translation>Анонимный (ставка zPIV)</translation>
+        <source>Anonymous (zABLE Stake)</source>
+        <translation>Анонимный (ставка zABLE)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4539,12 +4539,12 @@ Please be patient...</source>
         <translation>Экспортирование произошло успешно</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Полученный PIV от zPIV</translation>
+        <source>Received ABLE from zABLE</source>
+        <translation>Полученный ABLE от zABLE</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPIV</source>
-        <translation>Потратить Zerocoin, Преобразовать в zPIV</translation>
+        <source>Zerocoin Spend, Change in zABLE</source>
+        <translation>Потратить Zerocoin, Преобразовать в zABLE</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4580,8 +4580,8 @@ Please be patient...</source>
         <translation>Отправить Монеты</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftX не поддерживает отправку значений, которые еще высоки. В настоящее время транзакции ограничены %1 PIV.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 ABLE.</source>
+        <translation>SwiftX не поддерживает отправку значений, которые еще высоки. В настоящее время транзакции ограничены %1 ABLE.</translation>
     </message>
 </context>
 <context>
@@ -4614,8 +4614,8 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Выберите zPIV чтобы потратить</translation>
+        <source>Select zABLE to Spend</source>
+        <translation>Выберите zABLE чтобы потратить</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4626,8 +4626,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zABLE</source>
+        <translation>zABLE</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4689,16 +4689,16 @@ Please be patient...</source>
         <translation>Распространяется по лицензии программного обеспечения MIT, см. Сопроводительный файл COPYING или &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
-        <translation>Включить автоматическое резервное копирование кошелька, запускаемое после каждого чеканки zPIV (0-1, по умолчанию: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zABLE minting (0-1, default: %u)</source>
+        <translation>Включить автоматическое резервное копирование кошелька, запускаемое после каждого чеканки zABLE (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
-        <translation>Включение или отключение функций разбивки для входов PIV (0-1, по умолчанию: %u)</translation>
+        <source>Enable or disable staking functionality for ABLE inputs (0-1, default: %u)</source>
+        <translation>Включение или отключение функций разбивки для входов ABLE (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>Включение или отключение функций разбивки для входов zPIV (0-1, по умолчанию: %u)</translation>
+        <source>Enable or disable staking functionality for zABLE inputs (0-1, default: %u)</source>
+        <translation>Включение или отключение функций разбивки для входов zABLE (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4733,12 +4733,12 @@ Please be patient...</source>
         <translation>Выполнить команду, когда лучший блок изменяется (%s в cmd заменяется блочным хэшем)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Тарифы (в PIV / Kb), меньшие, чем это, считаются нулевой комиссией за ретрансляцию (по умолчанию: %s)</translation>
+        <source>Fees (in ABLE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Тарифы (в ABLE / Kb), меньшие, чем это, считаются нулевой комиссией за ретрансляцию (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Плата (в PIV / Kb) меньше этого считается нулевой комиссией за создание транзакции (по умолчанию: %s)</translation>
+        <source>Fees (in ABLE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Плата (в ABLE / Kb) меньше этого считается нулевой комиссией за создание транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4841,12 +4841,12 @@ Please be patient...</source>
         <translation>Не удалось найти достаточное количество средств, предназначенных для обфускации, для этой транзакции.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Невозможно найти достаточное количество средств, не предназначенных для обфускации, для этой транзакции, которые не равны 10000 PIV.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 ABLE.</source>
+        <translation>Невозможно найти достаточное количество средств, не предназначенных для обфускации, для этой транзакции, которые не равны 10000 ABLE.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Не удалось найти достаточное количество средств для этой транзакции, которые не равны 10000 PIV.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 ABLE.</source>
+        <translation>Не удалось найти достаточное количество средств для этой транзакции, которые не равны 10000 ABLE.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5129,8 +5129,8 @@ Please be patient...</source>
         <translation>Не удалось прочитать блок</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Плата (в PIV / kB) для добавления к транзакциям, которые вы отправляете (по умолчанию: %s)</translation>
+        <source>Fee (in ABLE/kB) to add to transactions you send (default: %s)</source>
+        <translation>Плата (в ABLE / kB) для добавления к транзакциям, которые вы отправляете (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5233,8 +5233,8 @@ Please be patient...</source>
         <translation>Процент автоматически отчеканенного Zerocoin (1-100, по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Reindex статистика денежной массы PIV и zPIV</translation>
+        <source>Reindex the ABLE and zABLE money supply statistics</source>
+        <translation>Reindex статистика денежной массы ABLE и zABLE</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5309,8 +5309,8 @@ Please be patient...</source>
         <translation>Предпочтительный номинал для автоматически чеканившегося Zerocoin (1/5/10/50/100/500/1000/5000), 0 без предпочтений. default: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Укажите собственный путь резервного копирования, чтобы добавить копию любой автоматической резервной копии zPIV. Если задано как dir, каждая резервная копия генерирует файл с отметкой времени. Если он установлен как файл, он будет переписывать в этот файл каждую резервную копию. Если также установлен резервный путь, произойдет 4 резервных копии</translation>
+        <source>Specify custom backup path to add a copy of any automatic zABLE backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Укажите собственный путь резервного копирования, чтобы добавить копию любой автоматической резервной копии zABLE. Если задано как dir, каждая резервная копия генерирует файл с отметкой времени. Если он установлен как файл, он будет переписывать в этот файл каждую резервную копию. Если также установлен резервный путь, произойдет 4 резервных копии</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5721,8 +5721,8 @@ Please be patient...</source>
         <translation>Синхронизация спорков ...</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Синхронизация zPIV кошелька ...</translation>
+        <source>Syncing zABLE wallet...</source>
+        <translation>Синхронизация zABLE кошелька ...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5829,7 +5829,7 @@ Please be patient...</source>
         <translation>Имя пользователя для соединений JSON-RPC</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
+        <source>Value is below the smallest available denomination (= 1) of zABLE</source>
         <translation>Значение ниже наименьшего доступного номинала (= 1) zPiv</translation>
     </message>
     <message>

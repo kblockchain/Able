@@ -176,16 +176,16 @@
         <translation>Potvrdi šifriranje novčanika</translation>
     </message>
     <message>
-        <source>ABLE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>ABLE se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše PIV od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>ABLE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ABLEs from being stolen by malware infecting your computer.</source>
+        <translation>ABLE se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše ABLE od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Jeste li sigurni da želite šifrirati svoj novčanik?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite zaporku, 1 izgubit ćete sve Vaše PIVove 1 !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ABLE&lt;/b&gt;!</source>
+        <translation>Upozorenje: Ako šifrirate svoj novčanik i izgubite zaporku, 1 izgubit ćete sve Vaše ABLEove 1 !</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Pregled povijesti transakcija</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Postavke privatnosti za zPIV</translation>
+        <source>Privacy Actions for zABLE</source>
+        <translation>Postavke privatnosti za zABLE</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -730,7 +730,7 @@
     </message>
     <message>
         <source>ABLE Core client</source>
-        <translation>PIVIX Core Klijent</translation>
+        <translation>ABLEIX Core Klijent</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1629,8 +1629,8 @@ Budite strpljivi nakon što kliknete uvoz.</translation>
         <translation>Adresa / iznos:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Dodajte odredišta za slanje PIV
+        <source>Add destinations to send ABLE to</source>
+        <translation>Dodajte odredišta za slanje ABLE
 </translation>
     </message>
     <message>
@@ -1831,28 +1831,28 @@ https://www.transifex.com/able-project/able-project-translations</translation>
 </translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Omogućite automint PIV jedinica na zPIV</translation>
+        <source>Enable automatic minting of ABLE units to zABLE</source>
+        <translation>Omogućite automint ABLE jedinica na zABLE</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Omogući zPIV Automint</translation>
+        <source>Enable zABLE Automint</source>
+        <translation>Omogući zABLE Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Postotak dolaznih PIV koji se automatski pretvara u zPIV putem protokola Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming ABLE which get automatically converted to zABLE via Zerocoin Protocol (min: 10%)</source>
+        <translation>Postotak dolaznih ABLE koji se automatski pretvara u zABLE putem protokola Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Postotak automatiziranog zPIV</translation>
+        <source>Percentage of autominted zABLE</source>
+        <translation>Postotak automatiziranog zABLE</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno PIV za apoen</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough ABLE for this denomination is available</source>
+        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno ABLE za apoen</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Preferirana Automint zPIV denominacijad</translation>
+        <source>Preferred Automint zABLE Denomination</source>
+        <translation>Preferirana Automint zABLE denominacijad</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2010,8 +2010,8 @@ https://www.transifex.com/able-project/able-project-translations</translation>
         <translation>Ukupni saldo, uključujući sve nedostupne kovanice.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>PIV Saldo</translation>
+        <source>ABLE Balance</source>
+        <translation>ABLE Saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2038,14 +2038,14 @@ https://www.transifex.com/able-project/able-project-translations</translation>
         <translation>Uključena je vaša trenutna bilanca ABLE, nepotvrđene i nezrele transakcije</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Bilanca</translation>
+        <source>zABLE Balance</source>
+        <translation>zABLE Bilanca</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zABLE are spendable.</source>
         <translation>Mature: više od 20 potvrda i više od 1 mint od iste denominacije nakon što je mintan.
-Ti zPIVs se mogu potrošiti.</translation>
+Ti zABLEs se mogu potrošiti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2098,8 +2098,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Po potrošiti:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Zaključani PIV ili Masternode kolateral. Oni su isključeni iz zPIV kovanja.</translation>
+        <source>Locked ABLE or Masternode collaterals. These are excluded from zABLE minting.</source>
+        <translation>Zaključani ABLE ili Masternode kolateral. Oni su isključeni iz zABLE kovanja.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2110,8 +2110,8 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>Nepotvrđeno:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Vaša trenutačna zPIV bilanca, nepotvrđena i nezrela zPIV.</translation>
+        <source>Your current zABLE balance, unconfirmed and immature zABLE included.</source>
+        <translation>Vaša trenutačna zABLE bilanca, nepotvrđena i nezrela zABLE.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2122,10 +2122,10 @@ Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</tran
         <translation>nije sinkronizirano</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zABLE.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Trenutni postotak zPIV.
+        <translation>Trenutni postotak zABLE.
 Ako je omogućeno automatsko navođenje, ovaj postotak će se podmiriti oko konfiguriranog postotka automatskog navođenja (zadano = 10%).
 </translation>
     </message>
@@ -2269,8 +2269,8 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zABLE</source>
+        <translation>zABLE</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2297,12 +2297,12 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>PRIVATNOST</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>Upravljanje zPIV</translation>
+        <source>zABLE Control</source>
+        <translation>Upravljanje zABLE</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>zPIV Odabrani:</translation>
+        <source>zABLE Selected:</source>
+        <translation>zABLE Odabrani:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2317,24 +2317,24 @@ Da biste omogućili, promjenite postavke AutoMint 'enablezeromint=0' na 'enablez
         <translation>Potroši Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Dostupni (zreli) zPIV za potrošnju</translation>
+        <source>Available (mature and spendable) zABLE for spending</source>
+        <translation>Dostupni (zreli) zABLE za potrošnju</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Dostupna Bilanca:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zABLE for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Dostupni (zreli) zPIV za potrošnju
+zABLE are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Dostupni (zreli) zABLE za potrošnju
 
-zPIV su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
+zABLE su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominacije nakon što su bili mintani</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zABLE</source>
+        <translation>0 zABLE</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2393,8 +2393,8 @@ zPIV su zreli kada imaju više od 20 potvrda I više od 2 mint od iste denominac
         <translation>Statistike Zerocoina:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zABLE</source>
+        <translation>Ukupni saldo uključujući nepotvrđeni i nedovršeni zABLE</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2415,24 +2415,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Nezreli: potvrđeno, ali manje od 1 minta iste denominacije nakon mintanja</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zABLE minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to able.conf
 - disable: add 'enablezeromint=0' to able.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zABLE
 
 </source>
-        <translation>Pokažite trenutačni status automatskog zPIV mintanja.
+        <translation>Pokažite trenutačni status automatskog zABLE mintanja.
 
 Da biste promijenili status (potrebno je ponovno pokretanje):
 - omogući: dodajte 'enablezeromint = 1' u able.conf
 - onemogućiti: dodajte 'enablezeromint = 0' na able.conf
 
 Promjena postotka (nije potrebno ponovno pokretanje):
-- izbornik Postavke-&gt; Opcije-&gt; Postotak zPIV</translation>
+- izbornik Postavke-&gt; Opcije-&gt; Postotak zABLE</translation>
     </message>
     <message>
         <source>AutoMint Status</source>
@@ -2604,12 +2604,12 @@ Please be patient...</source>
         <translation>Pokretanje ResetMintZerocoin: ponovno skeniranje potpunog blockchain, to će trajati i do 30 minuta, ovisno o vašem hardveru.</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV utrošeno #: </translation>
+        <source>zABLE Spend #: </source>
+        <translation>zABLE utrošeno #: </translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>zPIV Mint</translation>
+        <source>zABLE Mint</source>
+        <translation>zABLE Mint</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2624,12 +2624,12 @@ Please be patient...</source>
         <translation> Konfigirani ciljani postotak: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>Zbog održavanja zPIV je trenutačno onemogućen.</translation>
+        <source>zABLE is currently disabled due to maintenance.</source>
+        <translation>Zbog održavanja zABLE je trenutačno onemogućen.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>Radovi u tijeku na zPIV.</translation>
+        <source>zABLE is currently undergoing maintenance.</source>
+        <translation>Radovi u tijeku na zABLE.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3075,8 +3075,8 @@ Please be patient...</source>
         <translation>Put prilagođenog sigurnosnog kopiranja:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Prilagođeni put zPIV sigurnosne kopije:</translation>
+        <source>Custom zABLE Backup Path:</source>
+        <translation>Prilagođeni put zABLE sigurnosne kopije:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3524,8 +3524,8 @@ Please be patient...</source>
         <translation>Veličina UTXO:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 ABLE</source>
+        <translation>0 ABLE</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3582,12 +3582,12 @@ Please be patient...</source>
         <translation>Kovanice se automatski odabiru</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uPIV-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 uPIV-a, dok se "barem" plaća 1000 uPIV-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <source>If the custom fee is set to 1000 uABLEs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uABLEs in fee,&lt;br /&gt;while "at least" pays 1000 uABLEs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ako je prilagođena naknada postavljena na 1000 uABLE-ova, a transakcija je samo 250 bajta, tada "po kilobajtu" se plaća samo 250 uABLE-a, dok se "barem" plaća 1000 uABLE-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Ako je prilagođena naknada postavljena na 1000 uPIV, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 uPIV-ova, a "ukupno barem" plaća 1000 uPIV-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
+        <source>If the custom fee is set to 1000 uABLEs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uABLEs in fee,&lt;br /&gt;while "total at least" pays 1000 uABLEs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Ako je prilagođena naknada postavljena na 1000 uABLE, a transakcija je samo 250 bajta, tada "po kilobajtu" plaća se samo 250 uABLE-ova, a "ukupno barem" plaća 1000 uABLE-ova. Za transakcije veće od kilobajta, oboje plaćaju po kilobajtu.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ABLE transactions than the network can process.</source>
@@ -3638,8 +3638,8 @@ Please be patient...</source>
         <translation>Dodaj primatelja</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>Anonimiziran PIV</translation>
+        <source>Anonymized ABLE</source>
+        <translation>Anonimiziran ABLE</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4283,12 +4283,12 @@ Please be patient...</source>
         <translation>Zaprimljeno preko Zametanja</translation>
     </message>
     <message>
-        <source>PIV Stake</source>
-        <translation>PIV Stake</translation>
+        <source>ABLE Stake</source>
+        <translation>ABLE Stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zABLE Stake</source>
+        <translation>zABLE Stake</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4307,32 +4307,32 @@ Please be patient...</source>
         <translation>Prikrivanje Stvara Denominacije</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>Pretvoreni PIV u zPIV</translation>
+        <source>Converted ABLE to zABLE</source>
+        <translation>Pretvoreni ABLE u zABLE</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>Utrošeni zPIV</translation>
+        <source>Spent zABLE</source>
+        <translation>Utrošeni zABLE</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Primljeni PIV od zPIV</translation>
+        <source>Received ABLE from zABLE</source>
+        <translation>Primljeni ABLE od zABLE</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Mintana razlika zPIV od zPIV Utroška</translation>
+        <source>Minted Change as zABLE from zABLE Spend</source>
+        <translation>Mintana razlika zABLE od zABLE Utroška</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>Pretvoreni zPIV u PIV</translation>
+        <source>Converted zABLE to ABLE</source>
+        <translation>Pretvoreni zABLE u ABLE</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Transaction)</source>
-        <translation>Anonimno (zPIV Transakcija)</translation>
+        <source>Anonymous (zABLE Transaction)</source>
+        <translation>Anonimno (zABLE Transakcija)</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Stake)</source>
-        <translation>Anonimno (zPIV Stake)</translation>
+        <source>Anonymous (zABLE Stake)</source>
+        <translation>Anonimno (zABLE Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4542,12 +4542,12 @@ Please be patient...</source>
         <translation>Izvoz uspješan</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Primljeni PIV od zPIV</translation>
+        <source>Received ABLE from zABLE</source>
+        <translation>Primljeni ABLE od zABLE</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPIV</source>
-        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zPIV</translation>
+        <source>Zerocoin Spend, Change in zABLE</source>
+        <translation>Zerocoin Utrošeno, Razlika (ostatak) u zABLE</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4583,8 +4583,8 @@ Please be patient...</source>
         <translation>Salji novac</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 PIV.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 ABLE.</source>
+        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 ABLE.</translation>
     </message>
 </context>
 <context>
@@ -4617,8 +4617,8 @@ Please be patient...</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Odabrani zPIV za utrošiti</translation>
+        <source>Select zABLE to Spend</source>
+        <translation>Odabrani zABLE za utrošiti</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4629,8 +4629,8 @@ Please be patient...</source>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zABLE</source>
+        <translation>zABLE</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4692,16 +4692,16 @@ Please be patient...</source>
         <translation>Distribuirano pod MIT softverskom licencom, pogledajte priloženu datoteku COPYING ili &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
-        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zPIV mintanja (0-1, default: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zABLE minting (0-1, default: %u)</source>
+        <translation>Omogući automatsko sigurnosno kopiranje novčanika nakon svakog zABLE mintanja (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za PIV unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for ABLE inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za ABLE unose (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za zPIV unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zABLE inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za zABLE unose (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -4736,12 +4736,12 @@ Please be patient...</source>
         <translation>Izvrši naredbu kada se promijeni najbolji blok (%s u cmd zamjenjuje se blokovskim raspršivanjem)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Naknade (u PIV / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
+        <source>Fees (in ABLE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Naknade (u ABLE / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Naknade (u PIV / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
+        <source>Fees (in ABLE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Naknade (u ABLE / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -4844,12 +4844,12 @@ Please be patient...</source>
         <translation>Nije moguće locirati dovoljno sredstava s domenom Prikrivanja za tu transakciju.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 10000 PIV.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 ABLE.</source>
+        <translation>Nije moguće pronaći dovoljno prikrivenih sredstava koja nisu denominirana za ovu transakciju koja nisu jednaka 10000 ABLE.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 10000 PIV.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 ABLE.</source>
+        <translation>Nije moguće pronaći dovoljno sredstava za ovu transakciju koja nije jednaka 10000 ABLE.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5129,8 +5129,8 @@ Please be patient...</source>
         <translation>Greška čitanja bloka</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Naknada (u PIV / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
+        <source>Fee (in ABLE/kB) to add to transactions you send (default: %s)</source>
+        <translation>Naknada (u ABLE / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5233,8 +5233,8 @@ Please be patient...</source>
         <translation>Postotak automatskog kovanog Zerocoina (1-100, zadano: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Ponovno indeksirati statistiku PIV i zPIV ponude novca</translation>
+        <source>Reindex the ABLE and zABLE money supply statistics</source>
+        <translation>Ponovno indeksirati statistiku ABLE i zABLE ponude novca</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5308,8 +5308,8 @@ Please be patient...</source>
         <translation>Preferirana denominacija za automatski ovjereni Zerocoin (1/5/10/50/100/500/1000/5000), 0 bez preferencije. zadana vrijednost: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zPIV sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
+        <source>Specify custom backup path to add a copy of any automatic zABLE backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Navedite put prilagođenog sigurnosnog kopiranja da biste dodali kopiju bilo koje automatske zABLE sigurnosne kopije. Ako je postavljeno kao dir, svaka sigurnosna kopija generira vremensku datoteku. Ako je postavljen kao datoteka, prepisat će na tu datoteku svaku kopiju. Ako je postavljen backuppath, dogodit će se 4 sigurnosne kopije</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -5720,8 +5720,8 @@ Please be patient...</source>
         <translation>Sinkronizacija sporka...</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Sinkronizacija zPIV novčanika...</translation>
+        <source>Syncing zABLE wallet...</source>
+        <translation>Sinkronizacija zABLE novčanika...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5828,8 +5828,8 @@ Please be patient...</source>
         <translation>Korisničko ime za JSON-RPC veze</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zPIV-a</translation>
+        <source>Value is below the smallest available denomination (= 1) of zABLE</source>
+        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zABLE-a</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

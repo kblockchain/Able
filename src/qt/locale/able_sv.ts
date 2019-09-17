@@ -176,16 +176,16 @@
         <translation>Bekräfta plånboks krypering</translation>
     </message>
     <message>
-        <source>ABLE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>ABLE kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina PIVs från att bli stulna av skadeprogram som infekterat din dator.</translation>
+        <source>ABLE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ABLEs from being stolen by malware infecting your computer.</source>
+        <translation>ABLE kommer att stängas ner nu för att färdigställa kryperingsprocessen. Kom ihåg att kryptering av din plånbok inte kan säkerställa dina ABLEs från att bli stulna av skadeprogram som infekterat din dator.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Är du säker på att du vill kryptera din plånbok?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ABLE&lt;/b&gt;!</source>
+        <translation>Varning: om du krypterar din plånbok och tappar bort din lösenfras kommer du &lt;b&gt; FÖRLORA ALLA DINA ABLE&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Bläddra i transaktions historiken</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Integritets funktioner för zPIV</translation>
+        <source>Privacy Actions for zABLE</source>
+        <translation>Integritets funktioner för zABLE</translation>
     </message>
     <message>
         <source>&amp;Governance</source>
@@ -1770,8 +1770,8 @@ Var god vänta efter att du trycker på importera.</translation>
         <translation>Adress / Mängd:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Lägg till destination att skicka PIV till</translation>
+        <source>Add destinations to send ABLE to</source>
+        <translation>Lägg till destination att skicka ABLE till</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1970,36 +1970,36 @@ https://www.transifex.com/able-project/able-project-translations</translation>
         <translation>Kartlägg port med &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Tillåt automatisk prägling med PIV enheter till zPIV</translation>
+        <source>Enable automatic minting of ABLE units to zABLE</source>
+        <translation>Tillåt automatisk prägling med ABLE enheter till zABLE</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Tillåt zPIV Autoprägling</translation>
+        <source>Enable zABLE Automint</source>
+        <translation>Tillåt zABLE Autoprägling</translation>
     </message>
     <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>Aktivera automatisk zPIV prägling från specifika adresser</translation>
+        <source>Enable automatic zABLE minting from specific addresses</source>
+        <translation>Aktivera automatisk zABLE prägling från specifika adresser</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Aktivera autopräglingsadresser</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procent av inkommande PIV som automatiskt konverteras till zPIV via Zerocoin Protokollet (min: 10%)</translation>
+        <source>Percentage of incoming ABLE which get automatically converted to zABLE via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procent av inkommande ABLE som automatiskt konverteras till zABLE via Zerocoin Protokollet (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Procent av autopräglade zPIV</translation>
+        <source>Percentage of autominted zABLE</source>
+        <translation>Procent av autopräglade zABLE</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Vänta med automatisk omvandling till Zerocoin tills tillräckligt många PIV för denna valör är tillgängliga</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough ABLE for this denomination is available</source>
+        <translation>Vänta med automatisk omvandling till Zerocoin tills tillräckligt många ABLE för denna valör är tillgängliga</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Preferens på zPIV valör i autoprägling</translation>
+        <source>Preferred Automint zABLE Denomination</source>
+        <translation>Preferens på zABLE valör i autoprägling</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2165,8 +2165,8 @@ https://www.transifex.com/able-project/able-project-translations</translation>
         <translation>Totalt saldo, inkluderar alla otillgängliga mynt.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>PIV Saldo</translation>
+        <source>ABLE Balance</source>
+        <translation>ABLE Saldo</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2193,14 +2193,14 @@ https://www.transifex.com/able-project/able-project-translations</translation>
         <translation>Ditt nuvarande ABLE saldo, obekräftade och omogna transaktioner är inkluderade</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Saldo</translation>
+        <source>zABLE Balance</source>
+        <translation>zABLE Saldo</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zABLE are spendable.</source>
         <translation>Mogna: över 20 bekräftelser och över 1 prägling av samma valör efter den blev myntad.
-Dessa zPIV kan spenderas.</translation>
+Dessa zABLE kan spenderas.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2253,8 +2253,8 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>Spenderbar:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Låsta PIV eller masternode som säkerhet. Dessa är uteslutna från zPIV minting.</translation>
+        <source>Locked ABLE or Masternode collaterals. These are excluded from zABLE minting.</source>
+        <translation>Låsta ABLE eller masternode som säkerhet. Dessa är uteslutna från zABLE minting.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2265,8 +2265,8 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>Obekräftade:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Ditt nuvarande zPIV saldo, obekräftade och omogna zPIV inräknade.</translation>
+        <source>Your current zABLE balance, unconfirmed and immature zABLE included.</source>
+        <translation>Ditt nuvarande zABLE saldo, obekräftade och omogna zABLE inräknade.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2277,10 +2277,10 @@ Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad
         <translation>osynkroniserad</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zABLE.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Nuvarande procent zPIV.
+        <translation>Nuvarande procent zABLE.
 Om AutoMint är tillåten så kommer denna procent att vara som den konfigurerade AutoMint procenten (standard = 10%).
 </translation>
     </message>
@@ -2424,8 +2424,8 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i a
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zABLE</source>
+        <translation>zABLE</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2452,12 +2452,12 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i a
         <translation>SEKRETESS</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>zPIV Kontroll</translation>
+        <source>zABLE Control</source>
+        <translation>zABLE Kontroll</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>Valda zPIV:</translation>
+        <source>zABLE Selected:</source>
+        <translation>Valda zABLE:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2472,24 +2472,24 @@ För att aktivera AutoMint ändra 'enablezeromint=0' till 'enablezeromint=1' i a
         <translation>Spendera Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>Tillgängliga (mogna och spenderbara) zPIV att spendera</translation>
+        <source>Available (mature and spendable) zABLE for spending</source>
+        <translation>Tillgängliga (mogna och spenderbara) zABLE att spendera</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Tillgängligt Saldo:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zABLE for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>Tillgängliga (mogna och spenderbara) zPIV att spendera
+zABLE are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>Tillgängliga (mogna och spenderbara) zABLE att spendera
 
-zPIV är mogna när de har över 20 bekräftelser OCH över 2 präglingar av samma valör efter de är myntade.</translation>
+zABLE är mogna när de har över 20 bekräftelser OCH över 2 präglingar av samma valör efter de är myntade.</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zABLE</source>
+        <translation>0 zABLE</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
@@ -2548,8 +2548,8 @@ zPIV är mogna när de har över 20 bekräftelser OCH över 2 präglingar av sam
         <translation>Zerocoin Stats:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Totalt Saldo, obekräftade och omogna zPIV inkluderade</translation>
+        <source>Total Balance including unconfirmed and immature zABLE</source>
+        <translation>Totalt Saldo, obekräftade och omogna zABLE inkluderade</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2570,24 +2570,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Omogna: bekräftade men under 1 myntning av samma valör efter den blev präglad</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zABLE minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to able.conf
 - disable: add 'enablezeromint=0' to able.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zABLE
 
 </source>
-        <translation>Visa den nuvarande statusen av automatisk zPIV minting.
+        <translation>Visa den nuvarande statusen av automatisk zABLE minting.
 
 För att ändra statusen (omstart krävs):
 -aktivera: lägg till 'enablezeromint=1' i able.conf
 -inaktivera: lägg till 'enablezeromint=0' i able.conf
 
 För att ändra procenten (ingen omstart krävs):
--meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zPIV
+-meny Inställningar-&gt;Alternativ-&gt;Procent på autominted zABLE
 
 </translation>
     </message>
@@ -2636,20 +2636,20 @@ För att ändra procenten (ingen omstart krävs):
         <translation>0 x</translation>
     </message>
     <message>
-        <source>Show zPIV denominations list</source>
-        <translation>Visa zPIV valör lista</translation>
+        <source>Show zABLE denominations list</source>
+        <translation>Visa zABLE valör lista</translation>
     </message>
     <message>
         <source>Show Denominations</source>
         <translation>Visa Valörer</translation>
     </message>
     <message>
-        <source>zPIV minting is DISABLED</source>
-        <translation>zPIV prägling är inaktiverad</translation>
+        <source>zABLE minting is DISABLED</source>
+        <translation>zABLE prägling är inaktiverad</translation>
     </message>
     <message>
-        <source>zPIV spending is NOT private (links back to the mint transaction)</source>
-        <translation>Att spendera zPIV är INTE privat (länkar tillbaka till den myntade transaktionen)</translation>
+        <source>zABLE spending is NOT private (links back to the mint transaction)</source>
+        <translation>Att spendera zABLE är INTE privat (länkar tillbaka till den myntade transaktionen)</translation>
     </message>
     <message>
         <source>Denominations with value 5:</source>
@@ -2782,12 +2782,12 @@ Please be patient...</source>
 Ha lite tålamod...</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV spendering #:</translation>
+        <source>zABLE Spend #: </source>
+        <translation>zABLE spendering #:</translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>zPIV Prägling</translation>
+        <source>zABLE Mint</source>
+        <translation>zABLE Prägling</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2802,12 +2802,12 @@ Ha lite tålamod...</translation>
         <translation>Konfigurerat procent mål: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV är för nuvarande inaktiverat p.g.a. underhåll.</translation>
+        <source>zABLE is currently disabled due to maintenance.</source>
+        <translation>zABLE är för nuvarande inaktiverat p.g.a. underhåll.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV genomgår för tillfället underhåll.</translation>
+        <source>zABLE is currently undergoing maintenance.</source>
+        <translation>zABLE genomgår för tillfället underhåll.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -3336,8 +3336,8 @@ Var tålmodig...</translation>
         <translation>Vanlig Backup Sökväg:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Vanlig zPIV Backup Sökväg:</translation>
+        <source>Custom zABLE Backup Path:</source>
+        <translation>Vanlig zABLE Backup Sökväg:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3804,12 +3804,12 @@ Var tålmodig...</translation>
         <translation>UTXO Storlek:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 ABLE</source>
+        <translation>0 ABLE</translation>
     </message>
     <message>
-        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 PIV applies</source>
-        <translation>SwiftX teknologi tillåter nästan omedelbara transaktioner - En fast avgift på 0.01PIV tillkommer</translation>
+        <source>SwiftX technology allows for near instant transactions - A flat fee of 0.01 ABLE applies</source>
+        <translation>SwiftX teknologi tillåter nästan omedelbara transaktioner - En fast avgift på 0.01ABLE tillkommer</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3864,12 +3864,12 @@ Var tålmodig...</translation>
         <translation>Mynt automatiskt valda</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Om 1000 uPIVs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uPIVs i avgift,&lt;br /&gt;medans "minst" betalar 1000 uPIVs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uABLEs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uABLEs in fee,&lt;br /&gt;while "at least" pays 1000 uABLEs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Om 1000 uABLEs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uABLEs i avgift,&lt;br /&gt;medans "minst" betalar 1000 uABLEs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uPIVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uPIVs in fee,&lt;br /&gt;while "total at least" pays 1000 uPIVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Om 1000 uPIVs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uPIVs i avgift,&lt;br /&gt;medans "minst totalt" betalar 1000 uPIVs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uABLEs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uABLEs in fee,&lt;br /&gt;while "total at least" pays 1000 uABLEs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Om 1000 uABLEs är den valda skräddarsydda avgiften och transaktionen är bara 250 bytes så kommer "per kilobyte" bara betala 250 uABLEs i avgift,&lt;br /&gt;medans "minst totalt" betalar 1000 uABLEs. För transaktioner större än en kilobyte så betalar båda per kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ABLE transactions than the network can process.</source>
@@ -3920,8 +3920,8 @@ Var tålmodig...</translation>
         <translation>Lägg till &amp;Mottagare</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>Anonymiserade PIV</translation>
+        <source>Anonymized ABLE</source>
+        <translation>Anonymiserade ABLE</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4580,12 +4580,12 @@ Var tålmodig...</translation>
         <translation>Mottaget via Fördunkling</translation>
     </message>
     <message>
-        <source>PIV Stake</source>
-        <translation>PIV staking</translation>
+        <source>ABLE Stake</source>
+        <translation>ABLE staking</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Staking</translation>
+        <source>zABLE Stake</source>
+        <translation>zABLE Staking</translation>
     </message>
     <message>
         <source>Obfuscation Denominate</source>
@@ -4604,32 +4604,32 @@ Var tålmodig...</translation>
         <translation>Obfuscation Skapa tecken</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>Konvertera PIV till zPIV</translation>
+        <source>Converted ABLE to zABLE</source>
+        <translation>Konvertera ABLE till zABLE</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>Spendera zPIV</translation>
+        <source>Spent zABLE</source>
+        <translation>Spendera zABLE</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Mottog PIV från zPIV</translation>
+        <source>Received ABLE from zABLE</source>
+        <translation>Mottog ABLE från zABLE</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Myntad Växel som zPIV från zPIV Spendering</translation>
+        <source>Minted Change as zABLE from zABLE Spend</source>
+        <translation>Myntad Växel som zABLE från zABLE Spendering</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>Konverterad zPIV till PIV</translation>
+        <source>Converted zABLE to ABLE</source>
+        <translation>Konverterad zABLE till ABLE</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Transaction)</source>
-        <translation>Anonym (zPIV Transaktion)</translation>
+        <source>Anonymous (zABLE Transaction)</source>
+        <translation>Anonym (zABLE Transaktion)</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Stake)</source>
-        <translation>Anonym (zPIV Stake)</translation>
+        <source>Anonymous (zABLE Stake)</source>
+        <translation>Anonym (zABLE Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4843,12 +4843,12 @@ Var tålmodig...</translation>
         <translation>Exportering Lyckat</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Mottog PIV från zPIV</translation>
+        <source>Received ABLE from zABLE</source>
+        <translation>Mottog ABLE från zABLE</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPIV</source>
-        <translation>Zerocoin spendera, Växel i zPIV</translation>
+        <source>Zerocoin Spend, Change in zABLE</source>
+        <translation>Zerocoin spendera, Växel i zABLE</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
@@ -4884,8 +4884,8 @@ Var tålmodig...</translation>
         <translation>Skicka Mynt</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>wiftX stödjer inte att skicka så höga värden än. Transaktioner är för nuvarande begränsade till %1 PIV.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 ABLE.</source>
+        <translation>wiftX stödjer inte att skicka så höga värden än. Transaktioner är för nuvarande begränsade till %1 ABLE.</translation>
     </message>
 </context>
 <context>
@@ -4918,8 +4918,8 @@ Var tålmodig...</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Välj zPIV att Spendera</translation>
+        <source>Select zABLE to Spend</source>
+        <translation>Välj zABLE att Spendera</translation>
     </message>
     <message>
         <source>Quantity</source>
@@ -4930,8 +4930,8 @@ Var tålmodig...</translation>
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zABLE</source>
+        <translation>zABLE</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
@@ -4993,16 +4993,16 @@ Var tålmodig...</translation>
         <translation>Distribuerad under MIT mjukvarulicensen, se medföljande fil COPYING eller &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
-        <source>Enable automatic wallet backups triggered after each zPIV minting (0-1, default: %u)</source>
-        <translation>Aktivera automatisk plånboksbackup efter varje zPIV minting (0-1, standard: %u)</translation>
+        <source>Enable automatic wallet backups triggered after each zABLE minting (0-1, default: %u)</source>
+        <translation>Aktivera automatisk plånboksbackup efter varje zABLE minting (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
-        <translation>Aktivera eller avaktivera staking funktionalitet för PIV inmatningar (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for ABLE inputs (0-1, default: %u)</source>
+        <translation>Aktivera eller avaktivera staking funktionalitet för ABLE inmatningar (0-1, standard: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>Aktivera eller avaktivera staking funktionalitet för zPIV inmatningar (0-1, standard: %u)</translation>
+        <source>Enable or disable staking functionality for zABLE inputs (0-1, default: %u)</source>
+        <translation>Aktivera eller avaktivera staking funktionalitet för zABLE inmatningar (0-1, standard: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5037,12 +5037,12 @@ Var tålmodig...</translation>
         <translation>Exekvera kommando när den bästa block ändras (%s i cmd är utbytt mot block hash)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Avgifter (i PIV/Kb) mindre än detta anses vara noll avgift i vidarebefodring (standard: %s)</translation>
+        <source>Fees (in ABLE/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Avgifter (i ABLE/Kb) mindre än detta anses vara noll avgift i vidarebefodring (standard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Avgifter (i PIV/Kb) mindre än detta anses vara noll avgift i transaktionsskapelse (standard: %s)</translation>
+        <source>Fees (in ABLE/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Avgifter (i ABLE/Kb) mindre än detta anses vara noll avgift i transaktionsskapelse (standard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5149,12 +5149,12 @@ Var tålmodig...</translation>
         <translation>Kan ej lokalisera tillräckligt Fördunklingsdenominationerade pengar för denna transaktion.</translation>
     </message>
     <message>
-        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Kan ej lokalisera tillräckligt Fördunkling icke-denominationerade pengar för denna transaktion som inte är 10000 PIV.</translation>
+        <source>Unable to locate enough Obfuscation non-denominated funds for this transaction that are not equal 10000 ABLE.</source>
+        <translation>Kan ej lokalisera tillräckligt Fördunkling icke-denominationerade pengar för denna transaktion som inte är 10000 ABLE.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 PIV.</source>
-        <translation>Kan inte hitta tillräckligt med pengar för denna transaktion som inte är 10000 PIV.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 ABLE.</source>
+        <translation>Kan inte hitta tillräckligt med pengar för denna transaktion som inte är 10000 ABLE.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5441,8 +5441,8 @@ Var tålmodig...</translation>
         <translation>Misslyckades läsa block</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Avgift (i PIV/kB) för att lägga till transaktioner you skicka (standard: %s)</translation>
+        <source>Fee (in ABLE/kB) to add to transactions you send (default: %s)</source>
+        <translation>Avgift (i ABLE/kB) för att lägga till transaktioner you skicka (standard: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5545,8 +5545,8 @@ Var tålmodig...</translation>
         <translation>Procent automatiskt mintad Zerocoin (1-100, default: %u)</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Indexera PIV och zPIV pengarna tillgång statistik på nytt</translation>
+        <source>Reindex the ABLE and zABLE money supply statistics</source>
+        <translation>Indexera ABLE och zABLE pengarna tillgång statistik på nytt</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -5625,8 +5625,8 @@ Var tålmodig...</translation>
         <translation>Valör aatt föredra för automatiskt mintad Zerocoin (1/5/10/50/100/500/1000/5000), 0 för ingen preface. standard: %u)</translation>
     </message>
     <message>
-        <source>Specify custom backup path to add a copy of any automatic zPIV backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
-        <translation>Specifiera skräddarsydd backup väg att lägga till en kopia av alla automatisk zPIV backup. Om satt som dir, varje backup genererar en tidsstämplad fil. Om satt som fil, skriver över den filen vid varje backup. Om backupvägen också är satt, 4 backups kommer hända</translation>
+        <source>Specify custom backup path to add a copy of any automatic zABLE backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup. If backuppath is set as well, 4 backups will happen</source>
+        <translation>Specifiera skräddarsydd backup väg att lägga till en kopia av alla automatisk zABLE backup. Om satt som dir, varje backup genererar en tidsstämplad fil. Om satt som fil, skriver över den filen vid varje backup. Om backupvägen också är satt, 4 backups kommer hända</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
@@ -6041,8 +6041,8 @@ Var tålmodig...</translation>
         <translation>Synkroniserar sporks...</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Synkroniserar zPIV plånbok...</translation>
+        <source>Syncing zABLE wallet...</source>
+        <translation>Synkroniserar zABLE plånbok...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -6153,8 +6153,8 @@ Var tålmodig...</translation>
         <translation>Användarnamn för JSON-RPC anslutningar</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Värde är under den minsta tillgängliga valören (=1) av zPIV</translation>
+        <source>Value is below the smallest available denomination (= 1) of zABLE</source>
+        <translation>Värde är under den minsta tillgängliga valören (=1) av zABLE</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

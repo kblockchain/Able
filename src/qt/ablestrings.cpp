@@ -60,12 +60,12 @@ QT_TRANSLATE_NOOP("able-core", ""
 QT_TRANSLATE_NOOP("able-core", ""
 "Enable automatic Zerocoin minting from specific addresses (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("able-core", ""
-"Enable automatic wallet backups triggered after each zPIV minting (0-1, "
+"Enable automatic wallet backups triggered after each zABLE minting (0-1, "
 "default: %u)"),
 QT_TRANSLATE_NOOP("able-core", ""
-"Enable or disable staking functionality for PIV inputs (0-1, default: %u)"),
+"Enable or disable staking functionality for ABLE inputs (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("able-core", ""
-"Enable or disable staking functionality for zPIV inputs (0-1, default: %u)"),
+"Enable or disable staking functionality for zABLE inputs (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("able-core", ""
 "Enable spork administration functionality with the appropriate private key."),
 QT_TRANSLATE_NOOP("able-core", ""
@@ -102,10 +102,10 @@ QT_TRANSLATE_NOOP("able-core", ""
 QT_TRANSLATE_NOOP("able-core", ""
 "Failed to find coin set amongst held coins with less than maxNumber of Spends"),
 QT_TRANSLATE_NOOP("able-core", ""
-"Fees (in PIV/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in ABLE/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("able-core", ""
-"Fees (in PIV/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in ABLE/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("able-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -178,7 +178,7 @@ QT_TRANSLATE_NOOP("able-core", ""
 "Show N confirmations for a successfully locked transaction (0-9999, default: "
 "%u)"),
 QT_TRANSLATE_NOOP("able-core", ""
-"Specify custom backup path to add a copy of any automatic zPIV backup. If "
+"Specify custom backup path to add a copy of any automatic zABLE backup. If "
 "set as dir, every backup generates a timestamped file. If set as file, will "
 "rewrite to that file every backup. If backuppath is set as well, 4 backups "
 "will happen"),
@@ -212,10 +212,10 @@ QT_TRANSLATE_NOOP("able-core", ""
 "Unable to locate enough Obfuscation denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("able-core", ""
 "Unable to locate enough Obfuscation non-denominated funds for this "
-"transaction that are not equal 10000 PIV."),
+"transaction that are not equal 10000 ABLE."),
 QT_TRANSLATE_NOOP("able-core", ""
 "Unable to locate enough funds for this transaction that are not equal 10000 "
-"PIV."),
+"ABLE."),
 QT_TRANSLATE_NOOP("able-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -297,7 +297,7 @@ QT_TRANSLATE_NOOP("able-core", "Do not load the wallet and disable wallet RPC ca
 QT_TRANSLATE_NOOP("able-core", "Do you want to rebuild the block database now?"),
 QT_TRANSLATE_NOOP("able-core", "Done loading"),
 QT_TRANSLATE_NOOP("able-core", "Enable automatic Zerocoin minting (0-1, default: %u)"),
-QT_TRANSLATE_NOOP("able-core", "Enable precomputation of zPIV spends and stakes (0-1, default %u)"),
+QT_TRANSLATE_NOOP("able-core", "Enable precomputation of zABLE spends and stakes (0-1, default %u)"),
 QT_TRANSLATE_NOOP("able-core", "Enable publish hash block in <address>"),
 QT_TRANSLATE_NOOP("able-core", "Enable publish hash transaction (locked via SwiftX) in <address>"),
 QT_TRANSLATE_NOOP("able-core", "Enable publish hash transaction in <address>"),
@@ -333,7 +333,7 @@ QT_TRANSLATE_NOOP("able-core", "Failed to read block"),
 QT_TRANSLATE_NOOP("able-core", "Failed to select a zerocoin"),
 QT_TRANSLATE_NOOP("able-core", "Failed to wipe zerocoinDB"),
 QT_TRANSLATE_NOOP("able-core", "Failed to write coin serial number into wallet"),
-QT_TRANSLATE_NOOP("able-core", "Fee (in PIV/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("able-core", "Fee (in ABLE/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("able-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("able-core", "Generate coins (default: %u)"),
 QT_TRANSLATE_NOOP("able-core", "How many blocks to check at startup (default: %u, 0 = all)"),
@@ -398,11 +398,11 @@ QT_TRANSLATE_NOOP("able-core", "RPC server options:"),
 QT_TRANSLATE_NOOP("able-core", "Randomly drop 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("able-core", "Randomly fuzz 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("able-core", "Rebuild block chain index from current blk000??.dat files"),
-QT_TRANSLATE_NOOP("able-core", "Recalculating PIV supply..."),
-QT_TRANSLATE_NOOP("able-core", "Recalculating minted ZPIV..."),
-QT_TRANSLATE_NOOP("able-core", "Recalculating spent ZPIV..."),
+QT_TRANSLATE_NOOP("able-core", "Recalculating ABLE supply..."),
+QT_TRANSLATE_NOOP("able-core", "Recalculating minted ZABLE..."),
+QT_TRANSLATE_NOOP("able-core", "Recalculating spent ZABLE..."),
 QT_TRANSLATE_NOOP("able-core", "Receive and display P2P network alerts (default: %u)"),
-QT_TRANSLATE_NOOP("able-core", "Reindex the PIV and zPIV money supply statistics"),
+QT_TRANSLATE_NOOP("able-core", "Reindex the ABLE and zABLE money supply statistics"),
 QT_TRANSLATE_NOOP("able-core", "Reindex the accumulator database"),
 QT_TRANSLATE_NOOP("able-core", "Reindexing zerocoin database..."),
 QT_TRANSLATE_NOOP("able-core", "Reindexing zerocoin failed"),
@@ -451,7 +451,7 @@ QT_TRANSLATE_NOOP("able-core", "Synchronizing budgets..."),
 QT_TRANSLATE_NOOP("able-core", "Synchronizing masternode winners..."),
 QT_TRANSLATE_NOOP("able-core", "Synchronizing masternodes..."),
 QT_TRANSLATE_NOOP("able-core", "Synchronizing sporks..."),
-QT_TRANSLATE_NOOP("able-core", "Syncing zPIV wallet..."),
+QT_TRANSLATE_NOOP("able-core", "Syncing zABLE wallet..."),
 QT_TRANSLATE_NOOP("able-core", "The coin spend has been used"),
 QT_TRANSLATE_NOOP("able-core", "The transaction did not verify"),
 QT_TRANSLATE_NOOP("able-core", "This help message"),
@@ -482,7 +482,7 @@ QT_TRANSLATE_NOOP("able-core", "Use block spam filter (default: %u)"),
 QT_TRANSLATE_NOOP("able-core", "Use the test network"),
 QT_TRANSLATE_NOOP("able-core", "User Agent comment (%s) contains unsafe characters."),
 QT_TRANSLATE_NOOP("able-core", "Username for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("able-core", "Value is below the smallest available denomination (= 1) of zPIV"),
+QT_TRANSLATE_NOOP("able-core", "Value is below the smallest available denomination (= 1) of zABLE"),
 QT_TRANSLATE_NOOP("able-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("able-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("able-core", "Wallet %s resides outside data directory %s"),
