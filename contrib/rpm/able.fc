@@ -1,0 +1,8 @@
+/usr/bin/able-cli		--	gen_context(system_u:object_r:able_exec_t,s0)
+/usr/sbin/abled		--	gen_context(system_u:object_r:able_exec_t,s0)
+/usr/lib(64)?/able/abled		--	gen_context(system_u:object_r:able_exec_t,s0)
+
+/etc/able(/.*)?		gen_context(system_u:object_r:able_conf_t,s0)
+/var/lib/able(/.*)?		gen_context(system_u:object_r:able_var_lib_t,s0)
+
+(/var)?/run/abled(/.*)?   gen_context(system_u:object_r:able_var_run_t,s0)

@@ -2197,7 +2197,7 @@ bool CWallet::CreateTransaction(const std::vector<std::pair<CScript, CAmount> >&
                 if (nChange > 0) {
                     // Fill a vout to ourself
                     // TODO: pass in scriptChange instead of reservekey so
-                    // change transaction isn't always pay-to-pivx-address
+                    // change transaction isn't always pay-to-able-address
                     CScript scriptChange;
                     bool combineChange = false;
 
@@ -3848,7 +3848,7 @@ bool CWallet::CreateZerocoinMintTransaction(const CAmount nValue, CMutableTransa
             reservekey->ReturnKey();
     }
 
-    // Sign if these are pivx outputs - NOTE that zPIV outputs are signed later in SoK
+    // Sign if these are able outputs - NOTE that zPIV outputs are signed later in SoK
     if (!isZCSpendChange) {
         int nIn = 0;
         for (const std::pair<const CWalletTx*, unsigned int>& coin : setCoins) {
@@ -4286,7 +4286,7 @@ bool CWallet::CreateZerocoinSpendTransaction(
                 }
             }
 
-            //add output to pivx address to the transaction (the actual primary spend taking place)
+            //add output to able address to the transaction (the actual primary spend taking place)
             CTxOut txOutZerocoinSpend(nValue, scriptZerocoinSpend);
             txNew.vout.push_back(txOutZerocoinSpend);
 
@@ -4789,7 +4789,7 @@ void CWallet::PrecomputeSpends()
     // We don't even need to worry about this code.. no zPIV.
     /*
     LogPrintf("Precomputer started\n");
-    RenameThread("pivx-precomputer");
+    RenameThread("able-precomputer");
 
     CWalletDB walletdb("precomputes.dat", "cr+");
 

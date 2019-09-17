@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
 This issue tracker is only for technical issues related to ABLE Core.
-General ABLE questions and/or support requests and are best directed to the [ABLE Discord](https://discord.pivx.org).
+General ABLE questions and/or support requests and are best directed to the [ABLE Discord](https://discord.able.org).
 
 ### Describe the issue
 

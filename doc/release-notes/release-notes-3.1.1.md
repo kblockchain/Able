@@ -1,8 +1,8 @@
-ABLE Core version *3.1.1* is now available from:  <https://github.com/pivx-project/pivx/releases>
+ABLE Core version *3.1.1* is now available from:  <https://github.com/able-project/able/releases>
 
 This is a new minor version release, including various bug fixes and performance improvements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/pivx-project/pivx/issues>
+Please report bugs using the issue tracker at github: <https://github.com/able-project/able/issues>
 
 Non-Mandatory Update
 ==============
@@ -12,7 +12,7 @@ ABLE Core v3.1.1 is a non-mandatory update to address bugs and introduce minor e
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/ABLE-Qt (on Mac) or pivxd/pivx-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/ABLE-Qt (on Mac) or abled/able-qt (on Linux).
 
 
 Compatibility
@@ -151,4 +151,4 @@ Thanks to everyone who directly contributed to this release:
  - presstab
 
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/pivx-project-translations/).
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/able-project-translations/).

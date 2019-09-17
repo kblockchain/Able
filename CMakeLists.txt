@@ -97,8 +97,8 @@ else()
     )
 endif()
 
-# run configure if pivx_config.h doesn't exist
-if (EXISTS	"${CMAKE_CURRENT_SOURCE_DIR}/src/config/pivx-config.h")
+# run configure if able_config.h doesn't exist
+if (EXISTS	"${CMAKE_CURRENT_SOURCE_DIR}/src/config/able-config.h")
 else()
     execute_process(
             COMMAND ${CMAKE_CURRENT_SOURCE_DIR}/configure ${BDB_CONFIGURE_FLAGS} ${BIGNUM_CONFIGURE_FLAGS}
@@ -144,7 +144,7 @@ include_directories(
 )
 
 set(libleveldb_a_headers
-        ${CMAKE_CURRENT_SOURCE_DIR}/src/config/pivx-config.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/src/config/able-config.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src/leveldb/port/atomic_pointer.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src/leveldb/port/port_example.h
         ${CMAKE_CURRENT_SOURCE_DIR}/src/leveldb/port/port_posix.h
@@ -495,9 +495,9 @@ add_library(UTIL_A STATIC ${BitcoinHeaders} ${UTIL_SOURCES})
 set(CLI_SOURCES ./src/rpc/client.cpp)
 add_library(CLI_A STATIC ${BitcoinHeaders} ${CLI_SOURCES})
 
-add_executable(pivx-cli ${CMAKE_CURRENT_SOURCE_DIR}/src/pivx-cli.cpp)
-add_dependencies(pivx-cli libunivalue)
-target_link_libraries(pivx-cli
+add_executable(able-cli ${CMAKE_CURRENT_SOURCE_DIR}/src/able-cli.cpp)
+add_dependencies(able-cli libunivalue)
+target_link_libraries(able-cli
         CLI_A
         univalue
         UTIL_A
@@ -505,9 +505,9 @@ target_link_libraries(pivx-cli
         ${Boost_LIBRARIES} ${OPENSSL_LIBRARIES} ${LIBEVENT_LIB}
         )
 
-add_executable(pivx-tx ${CMAKE_CURRENT_SOURCE_DIR}/src/pivx-tx.cpp)
-add_dependencies(pivx-tx libunivalue libsecp256k1)
-target_link_libraries(pivx-tx
+add_executable(able-tx ${CMAKE_CURRENT_SOURCE_DIR}/src/able-tx.cpp)
+add_dependencies(able-tx libunivalue libsecp256k1)
+target_link_libraries(able-tx
         univalue
         COMMON_A
         ZEROCOIN_A
@@ -517,12 +517,12 @@ target_link_libraries(pivx-tx
         ${Boost_LIBRARIES} ${OPENSSL_LIBRARIES} ${LIBEVENT_LIB}
         )
 if(GMP_FOUND)
-    target_link_libraries(pivx-tx ${GMP_LIBRARY})
+    target_link_libraries(able-tx ${GMP_LIBRARY})
 endif()
 
-add_executable(pivxd ${CMAKE_CURRENT_SOURCE_DIR}/src/pivxd.cpp)
-add_dependencies(pivxd libunivalue libsecp256k1 leveldb leveldb_sse42 memenv)
-target_link_libraries(pivxd
+add_executable(abled ${CMAKE_CURRENT_SOURCE_DIR}/src/abled.cpp)
+add_dependencies(abled libunivalue libsecp256k1 leveldb leveldb_sse42 memenv)
+target_link_libraries(abled
         SERVER_A
         COMMON_A
         univalue
@@ -534,10 +534,10 @@ target_link_libraries(pivxd
         ${BerkeleyDB_LIBRARIES} ${OPENSSL_LIBRARIES} ${Boost_LIBRARIES} ${LIBEVENT_LIB} miniupnpc pthread
         )
 if(GMP_FOUND)
-    target_link_libraries(pivxd ${GMP_LIBRARY})
+    target_link_libraries(abled ${GMP_LIBRARY})
 endif()
 if(ZMQ_FOUND)
-    target_link_libraries(pivxd ZMQ_A ${ZMQ_LIB})
+    target_link_libraries(abled ZMQ_A ${ZMQ_LIB})
 endif ()
 
 

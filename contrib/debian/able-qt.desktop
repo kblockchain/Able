@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=ABLE Core
+Comment=ABLE P2P Cryptocurrency
+Comment[fr]=ABLE, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ABLE, eşten eşe kriptografik sanal para birimi
+Exec=able-qt %u
+Terminal=false
+Type=Application
+Icon=able128
+MimeType=x-scheme-handler/able;
+Categories=Office;Finance;
+StartupWMClass=Pivx-qt

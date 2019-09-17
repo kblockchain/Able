@@ -1,0 +1,3 @@
+usr/local/bin/abled usr/bin
+usr/local/bin/able-cli usr/bin
+debian/examples/able.conf etc/able
