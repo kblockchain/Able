@@ -244,7 +244,7 @@ public:
         nToCheckBlockUpgradeMajority = 10800; // Approximate expected amount of blocks in 7 days (1440*7.5)
         nMinerThreads = 0;
         nTargetSpacing = 1 * 60;        // 1 minute
-        nMaturity = 100;
+        nMaturity = 10;
         nStakeMinDepth = 600;
         nFutureTimeDriftPoW = 7200;
         nFutureTimeDriftPoS = 180;
