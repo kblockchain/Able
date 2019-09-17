@@ -1384,7 +1384,7 @@ bool AppInit2()
     // ********************************************************* Step 7: load block chain
 
     //ABLE: Load Accumulator Checkpoints according to network (main/test/regtest)
-    assert(AccumulatorCheckpoints::LoadCheckpoints(Params().NetworkIDString()));
+    //assert(AccumulatorCheckpoints::LoadCheckpoints(Params().NetworkIDString()));
 
     fReindex = GetBoolArg("-reindex", false);
 
