@@ -85,7 +85,7 @@ src/qt/test/moc*.cpp
 *.qm
 Makefile
 pivx-qt
-PIVX-Qt.app
+ABLE-Qt.app
 background.tiff*
 
 # Unit-tests

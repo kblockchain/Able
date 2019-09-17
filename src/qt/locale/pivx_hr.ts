@@ -62,12 +62,12 @@
         <translation>Adrese za primanje</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše PIVX adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your ABLE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše ABLE adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše PIVX adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
+        <source>These are your ABLE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše ABLE adrese za primanje uplata. Preporuča se upotreba nove adrese primanja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Potvrdite šifriranje novčanika</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše PIV od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>ABLE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>ABLE se sada zatvara kako bi dovršio proces šifriranja. Ne zaboravite da šifriranje vašeg novčanika ne može u potpunosti zaštititi vaše PIV od krađe zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -617,12 +617,12 @@
         <translation>Alatna traka kartica</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>ABLE Core</source>
+        <translation>ABLE Core</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Pošaljite kovanice na PIVX adresu</translation>
+        <source>Send coins to a ABLE address</source>
+        <translation>Pošaljite kovanice na ABLE adresu</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and pivx: URIs)</source>
@@ -641,24 +641,24 @@
         <translation>Pregledajte masternode</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp; O PIVX Coreu</translation>
+        <source>&amp;About ABLE Core</source>
+        <translation>&amp; O ABLE Coreu</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Prikaz informacija o PIVX Coreu</translation>
+        <source>Show information about ABLE Core</source>
+        <translation>Prikaz informacija o ABLE Coreu</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Izmijenite opcije konfiguracije za PIVX</translation>
+        <source>Modify configuration options for ABLE</source>
+        <translation>Izmijenite opcije konfiguracije za ABLE</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Potpišite poruke s vašim PIVX adresama kako biste dokazali da ih posjedujete</translation>
+        <source>Sign messages with your ABLE addresses to prove you own them</source>
+        <translation>Potpišite poruke s vašim ABLE adresama kako biste dokazali da ih posjedujete</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim PIVX adresama</translation>
+        <source>Verify messages to ensure they were signed with specified ABLE addresses</source>
+        <translation>Potvrdite poruke kako biste bili sigurni da su potpisani s određenim ABLE adresama</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -685,8 +685,8 @@
         <translation>Otvori konfiguracijsku datoteku za Masternode</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Core klijent</translation>
+        <source>ABLE Core client</source>
+        <translation>ABLE Core klijent</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -922,15 +922,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>ABLE Core</source>
+        <translation>ABLE Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>ABLE Core</source>
+        <translation>ABLE Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1058,8 +1058,8 @@
         <translation>N/A</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>ABLE Core</source>
+        <translation>ABLE Core</translation>
     </message>
     </context>
 <context>
@@ -1322,15 +1322,15 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>PIVX Core se gasi...</translation>
+        <source>ABLE Core is shutting down...</source>
+        <translation>ABLE Core se gasi...</translation>
     </message>
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>PIVX adresa za potpisivanje poruke s</translation>
+        <source>The ABLE address to sign the message with</source>
+        <translation>ABLE adresa za potpisivanje poruke s</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1353,16 +1353,16 @@
         <translation>Kopirajte trenutačni potpis u međuspremnik sustava</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove PIVX adrese</translation>
+        <source>Sign the message to prove you own this ABLE address</source>
+        <translation>Potpišite poruku da biste dokazali da ste vlasnik ove ABLE adrese</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>PIVX adresa s kojom je potpisana poruka</translation>
+        <source>The ABLE address the message was signed with</source>
+        <translation>ABLE adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom PIVX adresom</translation>
+        <source>Verify the message to ensure it was signed with the specified ABLE address</source>
+        <translation>Potvrdite poruku kako biste bili sigurni da je potpisan s navedenom ABLE adresom</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1408,8 +1408,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>ABLE Core</source>
+        <translation>ABLE Core</translation>
     </message>
     <message>
         <source>Version %1</source>

@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi PIVX per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your ABLE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi ABLE per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi PIVX per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your ABLE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi ABLE per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi PIV dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>ABLE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>ABLE verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi PIV dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -254,12 +254,12 @@
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>Enter a PIVX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserire un indirizzo PIVX da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
+        <source>Enter a ABLE Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserire un indirizzo ABLE da crittografare utilizzando BIP 38. Inserire una password nel campo centrale. Cliccare su "cripta" per generare la chiave privata crittografata.</translation>
     </message>
     <message>
-        <source>The PIVX address to encrypt</source>
-        <translation>Indirizzo PIVX da crittografare</translation>
+        <source>The ABLE address to encrypt</source>
+        <translation>Indirizzo ABLE da crittografare</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -290,8 +290,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Encrypt the private key for this PIVX address</source>
-        <translation>Crittografa la chiave privata per questo indirizzo PIVX</translation>
+        <source>Encrypt the private key for this ABLE address</source>
+        <translation>Crittografa la chiave privata per questo indirizzo ABLE</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -641,12 +641,12 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>ABLE Core</source>
+        <translation>ABLE Core</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Invia valuta all'indirizzo PIVX</translation>
+        <source>Send coins to a ABLE address</source>
+        <translation>Invia valuta all'indirizzo ABLE</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and pivx: URIs)</source>
@@ -665,24 +665,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp;Informazioni PIVX Core</translation>
+        <source>&amp;About ABLE Core</source>
+        <translation>&amp;Informazioni ABLE Core</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Visualizza informazioni su PIVX Core</translation>
+        <source>Show information about ABLE Core</source>
+        <translation>Visualizza informazioni su ABLE Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Modifica le opzioni di configurazione per PIVX</translation>
+        <source>Modify configuration options for ABLE</source>
+        <translation>Modifica le opzioni di configurazione per ABLE</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi PIVX per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your ABLE addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi ABLE per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi PIVX specifici</translation>
+        <source>Verify messages to ensure they were signed with specified ABLE addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi ABLE specifici</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -713,8 +713,8 @@
         <translation>Apri file di configurazione del Masternodo</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Apri un PIVX: URI o richiesta di pagamento</translation>
+        <source>Open a ABLE: URI or payment request</source>
+        <translation>Apri un ABLE: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -725,12 +725,12 @@
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Mostra il messaggio di aiuto PIVX Core per ottenere un elenco con le possibili opzioni di riga di comando PIVX</translation>
+        <source>Show the ABLE Core help message to get a list with possible ABLE command-line options</source>
+        <translation>Mostra il messaggio di aiuto ABLE Core per ottenere un elenco con le possibili opzioni di riga di comando ABLE</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Core</translation>
+        <source>ABLE Core client</source>
+        <translation>ABLE Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -1149,8 +1149,8 @@ MultiSend: %1</translation>
         <translation>Modifica indirizzo di invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo PIVX valido.</translation>
+        <source>The entered address "%1" is not a valid ABLE address.</source>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo ABLE valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1206,16 +1206,16 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>ABLE Core</source>
+        <translation>ABLE Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>Informazioni su PIVX Core</translation>
+        <source>About ABLE Core</source>
+        <translation>Informazioni su ABLE Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1261,16 +1261,16 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
+        <source>Welcome to ABLE Core.</source>
         <translation>Benvenuto in PIVIX Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove PIVX Core salverà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where ABLE Core will store its data.</source>
+        <translation>Essendo il primo avvio dell'applicazione, puoi scegliere dove ABLE Core salverà i propri dati.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core scaricherà e salverà una copia della blockchain PIVX. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
+        <source>ABLE Core will download and store a copy of the ABLE block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>ABLE Core scaricherà e salverà una copia della blockchain ABLE. Verranno salvati almeno %1GB di dati in questa cartella, che cresceranno nel tempo. In questa cartella verrà salvato anche il portafoglio.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1281,8 +1281,8 @@ MultiSend: %1</translation>
         <translation>Utilizza una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>ABLE Core</source>
+        <translation>ABLE Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1423,12 +1423,12 @@ MultiSend: %1</translation>
         <translation>Inserire indirizzo destinatario</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVX addresses after it matures.
-To Add: enter percentage to give and PIVX address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ABLE addresses after it matures.
+To Add: enter percentage to give and ABLE address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi PIVX fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
-Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo PIVX da aggiungere al vettore MultiSend.
+        <translation>MultiSend ti permette di inviare automaticamente ad una lista di indirizzi ABLE fino al 100% delle ricompense di stake o masternodi, dopo che queste sono mature.
+Per Aggiunger: inserisci la percentuale da inviare e l'indirizzo ABLE da aggiungere al vettore MultiSend.
 Per Eliminare: Inserisci l'indirizzo da eliminare e premi elimina.
 MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
     </message>
@@ -1729,8 +1729,8 @@ MultiSend non verrà attivato a meno che tu non prema su Attiva</translation>
         <translation>Saldo corrente bloccato in indirizzi sola-lettura.</translation>
     </message>
     <message>
-        <source>Your current PIVX balance, unconfirmed and immature transactions included</source>
-        <translation>Il tuo saldo PIVX corrente, incluse le transazioni non confermate e non mature</translation>
+        <source>Your current ABLE balance, unconfirmed and immature transactions included</source>
+        <translation>Il tuo saldo ABLE corrente, incluse le transazioni non confermate e non mature</translation>
     </message>
     <message>
         <source>zPIV Balance</source>
@@ -2148,8 +2148,8 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Ammontare</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>ABLE Core</source>
+        <translation>ABLE Core</translation>
     </message>
     </context>
 <context>
@@ -2411,8 +2411,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>L'indirizzo PIVX per firmare il messaggio con</translation>
+        <source>The ABLE address to sign the message with</source>
+        <translation>L'indirizzo ABLE per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2435,16 +2435,16 @@ Per cambiare la percentuale (riavvio non necessario):
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo PIVX</translation>
+        <source>Sign the message to prove you own this ABLE address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo ABLE</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>L'indirizzo PIVX con cui è stato firmato il messaggio</translation>
+        <source>The ABLE address the message was signed with</source>
+        <translation>L'indirizzo ABLE con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo PIVX specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified ABLE address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo ABLE specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2482,8 +2482,8 @@ Per cambiare la percentuale (riavvio non necessario):
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>ABLE Core</source>
+        <translation>ABLE Core</translation>
     </message>
     </context>
 <context>

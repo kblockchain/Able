@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2019 The PIVX developers
+// Copyright (c) 2015-2019 The ABLE developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -162,7 +162,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 sub.credit = txout.nValue;
                 sub.involvesWatchAddress = mine & ISMINE_WATCH_ONLY;
                 if (ExtractDestination(txout.scriptPubKey, address) && IsMine(*wallet, address)) {
-                    // Received by PIVX Address
+                    // Received by ABLE Address
                     sub.type = TransactionRecord::RecvWithAddress;
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {
@@ -223,7 +223,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 sub.type = TransactionRecord::Obfuscated;
                 CTxDestination address;
                 if (ExtractDestination(wtx.vout[0].scriptPubKey, address)) {
-                    // Sent to PIVX Address
+                    // Sent to ABLE Address
                     sub.address = CBitcoinAddress(address).ToString();
                 } else {
                     // Sent to IP, or other non-address transaction like OP_EVAL
@@ -270,7 +270,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                     //private keys that the change was sent to. Do not display a "sent to" here.
                     if (wtx.HasZerocoinMintOutputs())
                         continue;
-                    // Sent to PIVX Address
+                    // Sent to ABLE Address
                     sub.type = TransactionRecord::SendToAddress;
                     sub.address = CBitcoinAddress(address).ToString();
                 } else if (txout.IsZerocoinMint()){

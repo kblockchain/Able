@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2019 The PIVX developers
+// Copyright (c) 2015-2019 The ABLE developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -36,7 +36,7 @@
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// PIVXMiner
+// ABLEMiner
 //
 
 //
@@ -611,7 +611,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != chainActive.Tip()->GetBlockHash())
-            return error("PIVXMiner : generated block is stale");
+            return error("ABLEMiner : generated block is stale");
     }
 
     // Remove key from key pool
@@ -633,7 +633,7 @@ bool ProcessBlockFound(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
             pwalletMain->zpivTracker->RemovePending(pblock->vtx[1].GetHash());
             pwalletMain->zpivTracker->ListMints(true, true, true); //update the state
         }
-        return error("PIVXMiner : ProcessNewBlock, block not accepted");
+        return error("ABLEMiner : ProcessNewBlock, block not accepted");
     }
 
     for (CNode* node : vNodes) {
@@ -651,7 +651,7 @@ int nMintableLastCheck = 0;
 
 void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
-    LogPrintf("PIVXMiner started\n");
+    LogPrintf("ABLEMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
     RenameThread("pivx-miner");
 
@@ -757,7 +757,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             continue;
         }
 
-        LogPrintf("Running PIVXMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+        LogPrintf("Running ABLEMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
             ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -846,12 +846,12 @@ void static ThreadBitcoinMiner(void* parg)
         BitcoinMiner(pwallet, false);
         boost::this_thread::interruption_point();
     } catch (std::exception& e) {
-        LogPrintf("PIVXMiner exception");
+        LogPrintf("ABLEMiner exception");
     } catch (...) {
-        LogPrintf("PIVXMiner exception");
+        LogPrintf("ABLEMiner exception");
     }
 
-    LogPrintf("PIVXMiner exiting\n");
+    LogPrintf("ABLEMiner exiting\n");
 }
 
 void GenerateBitcoins(bool fGenerate, CWallet* pwallet, int nThreads)
