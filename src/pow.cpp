@@ -131,8 +131,11 @@ bool CheckProofOfWork(uint256 hash, unsigned int nBits)
     if (hash > bnTarget) {
         if (Params().MineBlocksOnDemand())
             return false;
-        else
+        else {
+	    std::cout << hash.GetHex() << std::endl;
+	    std::cout << bnTarget.GetHex() << std::endl;;
             return error("CheckProofOfWork() : hash doesn't match nBits");
+	}
     }
 
     return true;
