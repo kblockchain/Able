@@ -2016,57 +2016,31 @@ int64_t GetBlockValue(int nHeight)
     return nSubsidy;
 }
 
-CAmount GetSeeSaw(const CAmount& blockValue, int nMasternodeCount, int nHeight)
-{
-    //if a mn count is inserted into the function we are looking for a specific result for a masternode count
-    if (nMasternodeCount < 1){
-        if (IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT))
-            nMasternodeCount = mnodeman.stable_size();
-        else
-            nMasternodeCount = mnodeman.size();
-    }
-
-    int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
-    int64_t mNodeCoins = nMasternodeCount * 10000 * COIN;
-
-    // Use this log to compare the masternode count for different clients
-    //LogPrintf("Adjusting seesaw at height %d with %d masternodes (without drift: %d) at %ld\n", nHeight, nMasternodeCount, nMasternodeCount - Params().MasternodeCountDrift(), GetTime());
-
-    if (fDebug)
-        LogPrintf("GetMasternodePayment(): moneysupply=%s, nodecoins=%s \n", FormatMoney(nMoneySupply).c_str(),
-                  FormatMoney(mNodeCoins).c_str());
-
-    CAmount ret = 0;
-    return ret; // No need to split PoS reward between masternode and PoS node -- they will not get reward from PoS anyway
-}
-
 int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount, bool isZABLEStake)
 {
-    int64_t ret = 0;
-
     if (Params().NetworkID() == CBaseChainParams::TESTNET) {
         if (nHeight < 200)
             return 0;
     }
 
-    if (nHeight <= 43200) {
-        ret = blockValue / 5;
-    } else if (nHeight < 86400 && nHeight > 43200) {
-        ret = blockValue / (100 / 30);
-    } else if (nHeight < (Params().NetworkID() == CBaseChainParams::TESTNET ? 145000 : 151200) && nHeight >= 86400) {
-        ret = 50 * COIN;
-    } else if (nHeight <= Params().LAST_POW_BLOCK() && nHeight >= 151200) {
-        ret = blockValue / 2;
-    } else if (nHeight < Params().Zerocoin_Block_V2_Start()) {
-        return GetSeeSaw(blockValue, nMasternodeCount, nHeight);
+    // Block height time counter
+
+    const int64_t year = 31556952;
+    CAmount reward = 200000 * COIN; // MN Staking requirement amount -- TODO: Macrofy
+    int64_t timeSpacing = Params().TargetSpacing();
+    if (nHeight <= year / timeSpacing) {
+        // 1 Year after genesis
+        reward = reward * 15 / 100; // 15%
+    } else if (nHeight <= 2 * year / timeSpacing) {
+        // 2 Year after genesis
+        reward = reward * 10 / 100; // 10%
     } else {
-        //When zABLE is staked, masternode only gets 2 ABLE
-        ret = 3 * COIN;
-        if (isZABLEStake)
-            ret = 2 * COIN;
+        // 3+ Year after genesis
+        reward = reward * 5 / 100; // 5%
     }
 
-    return ret;
+    // Pray to dice goddess for evenly distribute reward among masternodes
+    return reward * nMasternodeCount;
 }
 
 bool IsInitialBlockDownload()

@@ -300,7 +300,8 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
 
     //spork
     if (!masternodePayments.GetBlockPayee(pindexPrev->nHeight + 1, payee)) {
-        //no masternode detected
+        // no masternode detected
+        // Get masternode winner (pray to dice god here)
         CMasternode* winningNode = mnodeman.GetCurrentMasterNode(1);
         if (winningNode) {
             payee = GetScriptForDestination(winningNode->pubKeyCollateralAddress.GetID());
@@ -310,8 +311,21 @@ void CMasternodePayments::FillBlockPayee(CMutableTransaction& txNew, int64_t nFe
         }
     }
 
+    int nMasternode = 0;
+
+    if (IsSporkActive(SPORK_8_MASTERNODE_PAYMENT_ENFORCEMENT)) {
+            // Get a stable number of masternodes by ignoring newly activated (< 8000 sec old) masternodes
+            nMasternode = mnodeman.stable_size();
+    }
+    else {
+            //account for the fact that all peers do not see the same masternode count. A allowance of being off our masternode count is given
+            //we only need to look at an increased masternode count because as count increases, the reward decreases. This code only checks
+            //for mnPayment >= required, so it only makes sense to check the max node count allowed.
+            nMasternode = mnodeman.size();
+    }
+
     CAmount blockValue = GetBlockValue(pindexPrev->nHeight);
-    CAmount masternodePayment = GetMasternodePayment(pindexPrev->nHeight, blockValue, 0, fZABLEStake);
+    CAmount masternodePayment = GetMasternodePayment(pindexPrev->nHeight, blockValue, nMasternode, fZABLEStake);
 
     if (hasPayment) {
         if (fProofOfStake) {
