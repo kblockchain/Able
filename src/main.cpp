@@ -2007,7 +2007,7 @@ int64_t GetBlockValue(int nHeight)
 
     int64_t nSubsidy = 0;
     if (nHeight == 0) {
-        nSubsidy = 60001 * COIN;
+        nSubsidy = 27000000000 * COIN;
     } else if (nHeight < 86400 && nHeight > 0) { // TODO: Determine appropriate amount for PoS staking bootstrap
         nSubsidy = 250 * COIN;
     } else {

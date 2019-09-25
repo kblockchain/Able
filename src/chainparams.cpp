@@ -249,7 +249,7 @@ public:
         nFutureTimeDriftPoW = 7200;
         nFutureTimeDriftPoS = 180;
         nMasternodeCountDrift = 20;
-        nMaxMoneyOut = 21000000 * COIN;
+        nMaxMoneyOut = 90000000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 259200;
@@ -400,7 +400,7 @@ public:
         nStakeMinDepth = 100;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
-        nMaxMoneyOut = 43199500 * COIN;
+        nMaxMoneyOut = 9000000000 * COIN;
         nZerocoinStartHeight = 2147483647;
         nZerocoinStartTime = 2147483647; // END OF THE 32-bit WORLD! // TODO: Decide zerocoin activation point
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
@@ -507,7 +507,7 @@ public:
         nStakeMinDepth = 0;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 0; //approx Mon, 17 Apr 2017 04:00:00 GMT
-        nMaxMoneyOut = 43199500 * COIN;
+        nMaxMoneyOut = 90000000000 * COIN;
         nZerocoinStartHeight = 300;
         nBlockZerocoinV2 = 300;
         nZerocoinStartTime = 1501776000;
