@@ -312,9 +312,11 @@ public:
         assert(hashGenesisBlock == uint256("0x000003150f65dcefe0c79f60fa28bdaa96d10cd2fa4d9e7a4fa171e12288bd77"));
         assert(genesis.hashMerkleRoot == uint256("0x836a08b2d8af0d474951772fb409a883bb6578c2ee063ff447185a3efc9d6c13"));
 
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "able.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "able.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
-        vSeeds.push_back(CDNSSeedData("warrows.dev", "dnsseed.able.warrows.dev"));    // Primery DNS Seeder from warrows
+        vSeeds.push_back(CDNSSeedData("able-explorer", "explorer.able-mainnet.com"));
+        vSeeds.push_back(CDNSSeedData("able-seed1", "seed1.able-mainnet.com"));
+        vSeeds.push_back(CDNSSeedData("able-seed2", "seed2.able-mainnet.com"));
+        vSeeds.push_back(CDNSSeedData("able-seed3", "seed3.able-mainnet.com"));
+        vSeeds.push_back(CDNSSeedData("able-seed4", "seed4.able-mainnet.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 25);
@@ -435,9 +437,11 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "able-testnet.seed.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "able-testnet.seed2.fuzzbawls.pw"));
-        vSeeds.push_back(CDNSSeedData("warrows.dev", "testnet.dnsseed.able.warrows.dev"));
+        vSeeds.push_back(CDNSSeedData("able-explorer", "explorer.able-mainnet.com"));
+        vSeeds.push_back(CDNSSeedData("able-seed1", "seed1.able-mainnet.com"));
+        vSeeds.push_back(CDNSSeedData("able-seed2", "seed2.able-mainnet.com"));
+        vSeeds.push_back(CDNSSeedData("able-seed3", "seed3.able-mainnet.com"));
+        vSeeds.push_back(CDNSSeedData("able-seed4", "seed4.able-mainnet.com"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 83); // Testnet able addresses start with 'a'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);  // Testnet able script addresses start with 'b'
