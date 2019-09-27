@@ -10,4 +10,4 @@ Type=Application
 Icon=able128
 MimeType=x-scheme-handler/able;
 Categories=Office;Finance;
-StartupWMClass=Pivx-qt
+StartupWMClass=Able-qt
