@@ -492,7 +492,7 @@ void PrivacyDialog::sendzABLE()
 
     CAmount nValueOut = 0;
     for (const CTxOut& txout: wtxNew.vout) {
-        strStats += tr("value out: ") + FormatMoney(txout.nValue).c_str() + " Piv, ";
+        strStats += tr("value out: ") + FormatMoney(txout.nValue).c_str() + " Able, ";
         nValueOut += txout.nValue;
 
         strStats += tr("address: ");

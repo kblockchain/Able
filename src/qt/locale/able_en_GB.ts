@@ -2812,8 +2812,8 @@ Please be patient...</translation>
         <translation>No 'Pay To' address provided, creating local payment</translation>
     </message>
     <message>
-        <source>Invalid Pivx Address</source>
-        <translation>Invalid Pivx Address</translation>
+        <source>Invalid Able Address</source>
+        <translation>Invalid Able Address</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>

@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.able.Pivx-Qt";
+        return @"io.able.Able-Qt";
     } else {
         return [self __bundleIdentifier];
     }
