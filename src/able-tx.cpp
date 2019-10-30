@@ -45,7 +45,7 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Pivx Core able-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Able Core able-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
                                "  able-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded able transaction") + "\n" +
                                "  able-tx [options] -create [commands]   " + _("Create hex-encoded able transaction") + "\n" +

@@ -11,7 +11,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between able-cli and abled)
- * of a given instance of the Pivx system.
+ * of a given instance of the Able system.
  */
 class CBaseChainParams
 {
