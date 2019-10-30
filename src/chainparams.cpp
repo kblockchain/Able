@@ -400,7 +400,7 @@ public:
         nStakeMinDepth = 100;
         nMasternodeCountDrift = 4;
         nModifierUpdateBlock = 51197; //approx Mon, 17 Apr 2017 04:00:00 GMT
-        nMaxMoneyOut = 250000 * COIN;
+        nMaxMoneyOut = 9000000000 * COIN;
         nZerocoinStartHeight = 2147483647;
         nZerocoinStartTime = 2147483647; // END OF THE 32-bit WORLD! // TODO: Decide zerocoin activation point
         nBlockEnforceSerialRange = 1; //Enforce serial range starting this block
