@@ -393,7 +393,7 @@ public:
         nToCheckBlockUpgradeMajority = 5760; // 4 days
         nMinerThreads = 0;
         nTargetSpacing = 1 * 60;  // ABLE: 1 minute
-        nLastPOWBlock = 200;
+        nLastPOWBlock = 2147483647;
         nPivxBadBlockTime = 1489001494; // Skip nBit validation of Block 259201 per PR #915
         nPivxBadBlocknBits = 0x1e0a20bd; // Skip nBit validation of Block 201 per PR #915
         nMaturity = 1;
