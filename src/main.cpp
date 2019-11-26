@@ -949,6 +949,7 @@ int GetIXConfirmations(uint256 nTXHash)
 
 bool MoneyRange(CAmount nValueOut)
 {
+    std::cout << Params().MaxMoneyOut() << std::endl;
     return nValueOut >= 0 && nValueOut <= Params().MaxMoneyOut();
 }
 
