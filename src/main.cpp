@@ -1202,9 +1202,11 @@ bool CheckTransaction(const CTransaction& tx, bool fZerocoinActive, bool fReject
                 REJECT_INVALID, "bad-txns-vout-toolarge");
         */
         nValueOut += txout.nValue;
+        /*
         if (!MoneyRange(nValueOut))
             return state.DoS(100, error("CheckTransaction() : txout total out of range"),
                 REJECT_INVALID, "bad-txns-txouttotal-toolarge");
+        */
         if (fZerocoinActive && txout.IsZerocoinMint()) {
             if(!CheckZerocoinMint(tx.GetHash(), txout, state, true))
                 return state.DoS(100, error("CheckTransaction() : invalid zerocoin mint"));
