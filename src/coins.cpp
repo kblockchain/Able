@@ -214,6 +214,7 @@ unsigned int CCoinsViewCache::GetCacheSize() const
 const CTxOut& CCoinsViewCache::GetOutputFor(const CTxIn& input) const
 {
     const CCoins* coins = AccessCoins(input.prevout.hash);
+    LogPrint("IsAvailable %s : %d", input.prevout.hash.toString(), coins->IsAvailable(input.prevout.n));
     assert(coins && coins->IsAvailable(input.prevout.n));
     return coins->vout[input.prevout.n];
 }
@@ -228,8 +229,10 @@ CAmount CCoinsViewCache::GetValueIn(const CTransaction& tx) const
         return tx.GetZerocoinSpent();
 
     CAmount nResult = 0;
-    for (unsigned int i = 0; i < tx.vin.size(); i++)
+    for (unsigned int i = 0; i < tx.vin.size(); i++) {
+        LogPrint("GetOutputFor : %d", GetOutputFor(tx.vin[i]).nValue));
         nResult += GetOutputFor(tx.vin[i]).nValue;
+    }
 
     return nResult;
 }
