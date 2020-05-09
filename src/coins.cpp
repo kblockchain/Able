@@ -230,7 +230,7 @@ CAmount CCoinsViewCache::GetValueIn(const CTransaction& tx) const
 
     CAmount nResult = 0;
     for (unsigned int i = 0; i < tx.vin.size(); i++) {
-        LogPrint("GetOutputFor : %d", GetOutputFor(tx.vin[i]).nValue));
+        LogPrint("GetOutputFor : %s", GetOutputFor(tx.vin[i]).nValue.toString());
         nResult += GetOutputFor(tx.vin[i]).nValue;
     }
 
